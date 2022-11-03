@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Thêm khuyến mãi</title>
+    <title>Thêm loại</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
@@ -308,11 +308,11 @@
                             <div class="page-title-box">
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="admin-sale.html">Khuyến mãi</a></li>
-                                        <li class="breadcrumb-item active"> Thêm khuyến mãi</li>
+                                        <li class="breadcrumb-item"><a href="admin-category.html">Phân loại</a></li>
+                                        <li class="breadcrumb-item active"> Thêm loại</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title">Khuyến mãi</h4>
+                                <h4 class="page-title">Phân loại</h4>
                             </div>
                         </div>
                     </div>
@@ -323,64 +323,22 @@
                             <div class="card">
                                 <div class="card-body">
 
-                                    <h4 class="header-title">Khuyến mãi mới</h4>
+                                    <h4 class="header-title">Phân loại</h4>
                                     <form>
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb-3">
-                                                    <label for="name">Tên khuyến mãi</label>
-                                                    <input type="text" id="name" class="form-control">
-                                                </div>
-                                                <div class="form-group mb-3">
-                                                    <label for="percent">% giảm</label>
-                                                    <input type="text" id="percent" class="form-control">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label>Thời gian có hiệu lực</label>
-                                                    <input type="text" class="form-control date" id="singledaterange"
-                                                        data-toggle="date-picker" data-cancel-class="btn-warning">
-                                                </div>
-
+                                            <div class="form-group mb-3">
+                                                <label for="name">Tên loại</label>
+                                                <input type="text" id="name" class="form-control">
+                                            </div> 
+                                            <div class="form-group mb-3">
+                                                <label for="">Trạng thái</label>
+                                                <select class="custom-select mb-3" id="category">
+                                                    <option value="1" selected>Đang bán</option>
+                                                    <option value="2">Hết hàng</option>
+                                                    <option value="3">Ngưng bán</option>
+                                                </select>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb-3">
-                                                    <label for="category">Chọn loại sản phẩm áp dụng</label>
-                                                    <select id="category" multiple class="form-control">
-                                                        <option value="1">Cà phê</option>
-                                                        <option value="2">Trà sữa</option>
-                                                        <option value="3">Trà</option>
-                                                        <option value="4">Nước ép</option>
-                                                        <option value="5">Đá xay</option>
-                                                    </select>
-                                                    <span class="help-block"><small>Giữ ctrl hoặc shift để chọn nhiều
-                                                            loại.</small></span>
-                                                </div>
-                                                <div class="form-group mb-3">
-                                                    <label for="product">Chọn sản phẩm áp dụng</label>
-                                                    <select class="select2 form-control select2-multiple"
-                                                        data-toggle="select2" multiple="multiple"
-                                                        data-placeholder="Chọn sản phẩm áp dụng ..." id="product">
-                                                        <optgroup label="Cà phê">
-                                                            <option value="AK">Phin đen đá</option>
-                                                            <option value="HI">Phin nâu đá</option>
-                                                        </optgroup>
-                                                        <optgroup label="Trà sữa">
-                                                            <option value="CA">Trà sữa lài</option>
-                                                            <option value="NV">Trà sữa ô long</option>
-                                                            <option value="OR">Trà sữa ngon</option>
-                                                            <option value="WA">Trà sữa béo</option>
-                                                        </optgroup>
-                                                        <optgroup label="Trà">
-                                                            <option value="AZ">Trà ô long </option>
-                                                            <option value="CO">Trà vải</option>
-                                                            <option value="ID">Trà đào</option>
-                                                        </optgroup>
-                                                    </select>
-                                                </div>
 
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary">Thêm khuyến mãi</button>
+                                        <button type="submit" class="btn btn-primary">Thêm loại</button>
                                     </form>
                                 </div> <!-- end card-body-->
                             </div> <!-- end card-->

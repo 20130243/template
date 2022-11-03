@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Tin tức</title>
+    <title>Phân loại</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
@@ -57,7 +57,7 @@
                 <ul class="metismenu side-nav">
                     <li class="side-nav-item">
                         <a href="admin-revenue.html" class="side-nav-link">
-                            <i class="uil-calender"></i>
+                            <i class="uil-home-alt"></i>
                             <!-- <span class="badge badge-success float-right">4</span> -->
                             <span> Thống kê doanh thu</span>
                         </a>
@@ -98,15 +98,13 @@
                             <span> Quản lí loại </span>
                         </a>
                     </li>
-                 <li class="side-nav-item">
+                    <li class="side-nav-item">
                         <a href="admin-topping.html" class="side-nav-link">
                             <i class="uil-calender"></i>
                             <span> Quản lí topping </span>
                         </a>
                     </li>
                 </ul>
-
-
                 <!-- End Sidebar -->
 
                 <div class="clearfix"></div>
@@ -186,7 +184,7 @@
                                         </p>
                                     </a>
                                     <!-- item-->
-                                       <a href="admin-order-detail.html" class="dropdown-item notify-item">
+                                    <a href="admin-order-detail.html" class="dropdown-item notify-item">
                                         <div class="notify-icon bg-primary">
                                             <i class="mdi mdi-comment-account-outline"></i>
                                         </div>
@@ -199,7 +197,7 @@
                                 </div>
 
                                 <!-- All-->
-                               <a href="admin-order.html"
+                                <a href="admin-order.html"
                                     class="dropdown-item text-center text-primary notify-item notify-all">
                                     Xem tất cả
                                 </a>
@@ -308,10 +306,10 @@
                             <div class="page-title-box">
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item active">Tin tức</li>
+                                        <li class="breadcrumb-item active">Phân loại</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title">Tin tức</h4>
+                                <h4 class="page-title">Phân loại</h4>
                             </div>
                         </div>
                     </div>
@@ -323,8 +321,8 @@
                                 <div class="card-body">
                                     <div class="row mb-2">
                                         <div class="col-sm-4">
-                                            <a href="admin-add-blog.html" class="btn btn-danger mb-2"><i
-                                                    class="mdi mdi-plus-circle mr-2"></i>Thêm tin tức</a>
+                                            <a href="admin-add-category.html" class="btn btn-danger mb-2"><i
+                                                    class="mdi mdi-plus-circle mr-2"></i>Thêm loại</a>
                                         </div>
                                         <div class="col-sm-8">
                                             <!-- <div class="text-sm-right">
@@ -341,40 +339,25 @@
                                             id="products-datatable">
                                             <thead class="thead-light">
                                                 <tr>
-                                                    <th class="all">Tiêu đề</th>
-                                                    <th>Nội dung</th>
-                                                    <th>Thời gian</th>
-                                                    <th>Hành động</th>
+                                                    <th class="all">Tên loại</th>
+                                                    <th class="text-center">Tình trạng</th>
+                                                    <th class="text-center">Hành động</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        <img src="img/blog/blog-9.jpg" alt="contact-img"
-                                                        title="contact-img" class="rounded mr-3" height="48" />
-                                                        <p class="m-0 d-inline-block align-middle font-16"  style="max-width: 200px;">
+                                                        <p class="m-0 d-inline-block align-middle font-16">
                                                             <a href="apps-ecommerce-products-details.html"
-                                                            class="text-body">GRAND OPENING: PHÚC LONG TRƯƠNG ĐỊNH &
-                                                            PHÚC LONG NGÔ GIA TỰ</a>
+                                                                class="text-body">Trà sữa</a>
                                                             <br />
                                                         </p>
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        <div data-simplebar data-simplebar-lg
-                                                            style="max-height: 60px;width: 400px;" class="form-group">
-                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                                            Obcaecati quis quasi, veritatis temporibus eum optio, iure
-                                                            odit a sint consequuntur id cum ut. Eum non est itaque
-                                                            officia voluptatibus qui!
-                                                        </div>
                                                     </td> 
-                                                    <td>
-                                                        28/10/2022 - 5/11/2022
+                                                    <td class="text-center">
+                                                        <span class="badge badge-success">Đang bán</span>
                                                     </td>
-
-                                                    <td class="table-action">
-                                                        <a href="admin-add-blog.html" class="action-icon"> <i
+                                                     <td class="table-action text-center" >
+                                                        <a href="admin-add-category.html" class="action-icon"> <i
                                                                 class="mdi mdi-square-edit-outline"></i></a>
                                                         <a href="javascript:void(0);" class="action-icon"> <i
                                                                 class="mdi mdi-delete"></i></a>
@@ -382,31 +365,19 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <img src="img/blog/blog-9.jpg" alt="contact-img"
-                                                        title="contact-img" class="rounded mr-3" height="48" />
-                                                        <p class="m-0 d-inline-block align-middle font-16"  style="max-width: 200px;">
+                                                        <p class="m-0 d-inline-block align-middle font-16">
                                                             <a href="apps-ecommerce-products-details.html"
-                                                            class="text-body">GRAND OPENING: PHÚC LONG TRƯƠNG ĐỊNH &
-                                                            PHÚC LONG NGÔ GIA TỰ</a>
+                                                                class="text-body">Trà </a>
                                                             <br />
                                                         </p>
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        <div data-simplebar data-simplebar-lg
-                                                            style="max-height: 60px;width: 400px;" class="form-group">
-                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                                            Obcaecati quis quasi, veritatis temporibus eum optio, iure
-                                                            odit a sint consequuntur id cum ut. Eum non est itaque
-                                                            officia voluptatibus qui!
-                                                        </div>
                                                     </td> 
-                                                    <td>
-                                                        28/10/2022 - 5/11/2022
+
+                                                    <td class="text-center">
+                                                        <span class="badge badge-success">Đang bán</span>
                                                     </td>
 
-                                                    <td class="table-action">
-                                                        <a href="admin-add-blog.html" class="action-icon"> <i
+                                                     <td class="table-action text-center" >
+                                                        <a href="admin-add-category.html" class="action-icon"> <i
                                                                 class="mdi mdi-square-edit-outline"></i></a>
                                                         <a href="javascript:void(0);" class="action-icon"> <i
                                                                 class="mdi mdi-delete"></i></a>
@@ -414,31 +385,18 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <img src="img/blog/blog-9.jpg" alt="contact-img"
-                                                        title="contact-img" class="rounded mr-3" height="48" />
-                                                        <p class="m-0 d-inline-block align-middle font-16"  style="max-width: 200px;">
+                                                        <p class="m-0 d-inline-block align-middle font-16">
                                                             <a href="apps-ecommerce-products-details.html"
-                                                            class="text-body">GRAND OPENING: PHÚC LONG TRƯƠNG ĐỊNH &
-                                                            PHÚC LONG NGÔ GIA TỰ</a>
+                                                                class="text-body">Cà phê</a>
                                                             <br />
                                                         </p>
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        <div data-simplebar data-simplebar-lg
-                                                            style="max-height: 60px;width: 400px;" class="form-group">
-                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                                            Obcaecati quis quasi, veritatis temporibus eum optio, iure
-                                                            odit a sint consequuntur id cum ut. Eum non est itaque
-                                                            officia voluptatibus qui!
-                                                        </div>
                                                     </td> 
-                                                    <td>
-                                                        28/10/2022 - 5/11/2022
+                                                    <td class="text-center">
+                                                        <span class="badge badge-success">Đang bán</span>
                                                     </td>
 
-                                                    <td class="table-action">
-                                                        <a href="admin-add-blog.html" class="action-icon"> <i
+                                                     <td class="table-action text-center" >
+                                                        <a href="admin-add-category.html" class="action-icon"> <i
                                                                 class="mdi mdi-square-edit-outline"></i></a>
                                                         <a href="javascript:void(0);" class="action-icon"> <i
                                                                 class="mdi mdi-delete"></i></a>
@@ -446,31 +404,19 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <img src="img/blog/blog-9.jpg" alt="contact-img"
-                                                        title="contact-img" class="rounded mr-3" height="48" />
-                                                        <p class="m-0 d-inline-block align-middle font-16"  style="max-width: 200px;">
+                                                        <p class="m-0 d-inline-block align-middle font-16">
                                                             <a href="apps-ecommerce-products-details.html"
-                                                            class="text-body">GRAND OPENING: PHÚC LONG TRƯƠNG ĐỊNH &
-                                                            PHÚC LONG NGÔ GIA TỰ</a>
+                                                                class="text-body">Đá xay</a>
                                                             <br />
                                                         </p>
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        <div data-simplebar data-simplebar-lg
-                                                            style="max-height: 60px;width: 400px;" class="form-group">
-                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                                            Obcaecati quis quasi, veritatis temporibus eum optio, iure
-                                                            odit a sint consequuntur id cum ut. Eum non est itaque
-                                                            officia voluptatibus qui!
-                                                        </div>
                                                     </td> 
-                                                    <td>
-                                                        28/10/2022 - 5/11/2022
+
+                                                    <td class="text-center">
+                                                        <span class="badge badge-success">Đang bán</span>
                                                     </td>
 
-                                                    <td class="table-action">
-                                                        <a href="admin-add-blog.html" class="action-icon"> <i
+                                                     <td class="table-action text-center" >
+                                                        <a href="admin-add-category.html" class="action-icon"> <i
                                                                 class="mdi mdi-square-edit-outline"></i></a>
                                                         <a href="javascript:void(0);" class="action-icon"> <i
                                                                 class="mdi mdi-delete"></i></a>
@@ -478,127 +424,18 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <img src="img/blog/blog-9.jpg" alt="contact-img"
-                                                        title="contact-img" class="rounded mr-3" height="48" />
-                                                        <p class="m-0 d-inline-block align-middle font-16"  style="max-width: 200px;">
+                                                        <p class="m-0 d-inline-block align-middle font-16">
                                                             <a href="apps-ecommerce-products-details.html"
-                                                            class="text-body">GRAND OPENING: PHÚC LONG TRƯƠNG ĐỊNH &
-                                                            PHÚC LONG NGÔ GIA TỰ</a>
+                                                                class="text-body">Nước ép</a>
                                                             <br />
                                                         </p>
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        <div data-simplebar data-simplebar-lg
-                                                            style="max-height: 60px;width: 400px;" class="form-group">
-                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                                            Obcaecati quis quasi, veritatis temporibus eum optio, iure
-                                                            odit a sint consequuntur id cum ut. Eum non est itaque
-                                                            officia voluptatibus qui!
-                                                        </div>
                                                     </td> 
-                                                    <td>
-                                                        28/10/2022 - 5/11/2022
+                                                    <td class="text-center">
+                                                        <span class="badge badge-secondary">Ngưng bán</span>
                                                     </td>
 
-                                                    <td class="table-action">
-                                                        <a href="admin-add-blog.html" class="action-icon"> <i
-                                                                class="mdi mdi-square-edit-outline"></i></a>
-                                                        <a href="javascript:void(0);" class="action-icon"> <i
-                                                                class="mdi mdi-delete"></i></a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <img src="img/blog/blog-9.jpg" alt="contact-img"
-                                                        title="contact-img" class="rounded mr-3" height="48" />
-                                                        <p class="m-0 d-inline-block align-middle font-16"  style="max-width: 200px;">
-                                                            <a href="apps-ecommerce-products-details.html"
-                                                            class="text-body">GRAND OPENING: PHÚC LONG TRƯƠNG ĐỊNH &
-                                                            PHÚC LONG NGÔ GIA TỰ</a>
-                                                            <br />
-                                                        </p>
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        <div data-simplebar data-simplebar-lg
-                                                            style="max-height: 60px;width: 400px;" class="form-group">
-                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                                            Obcaecati quis quasi, veritatis temporibus eum optio, iure
-                                                            odit a sint consequuntur id cum ut. Eum non est itaque
-                                                            officia voluptatibus qui!
-                                                        </div>
-                                                    </td> 
-                                                    <td>
-                                                        28/10/2022 - 5/11/2022
-                                                    </td>
-
-                                                    <td class="table-action">
-                                                        <a href="admin-add-blog.html" class="action-icon"> <i
-                                                                class="mdi mdi-square-edit-outline"></i></a>
-                                                        <a href="javascript:void(0);" class="action-icon"> <i
-                                                                class="mdi mdi-delete"></i></a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <img src="img/blog/blog-9.jpg" alt="contact-img"
-                                                        title="contact-img" class="rounded mr-3" height="48" />
-                                                        <p class="m-0 d-inline-block align-middle font-16"  style="max-width: 200px;">
-                                                            <a href="apps-ecommerce-products-details.html"
-                                                            class="text-body">GRAND OPENING: PHÚC LONG TRƯƠNG ĐỊNH &
-                                                            PHÚC LONG NGÔ GIA TỰ</a>
-                                                            <br />
-                                                        </p>
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        <div data-simplebar data-simplebar-lg
-                                                            style="max-height: 60px;width: 400px;" class="form-group">
-                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                                            Obcaecati quis quasi, veritatis temporibus eum optio, iure
-                                                            odit a sint consequuntur id cum ut. Eum non est itaque
-                                                            officia voluptatibus qui!
-                                                        </div>
-                                                    </td> 
-                                                    <td>
-                                                        28/10/2022 - 5/11/2022
-                                                    </td>
-
-                                                    <td class="table-action">
-                                                        <a href="admin-add-blog.html" class="action-icon"> <i
-                                                                class="mdi mdi-square-edit-outline"></i></a>
-                                                        <a href="javascript:void(0);" class="action-icon"> <i
-                                                                class="mdi mdi-delete"></i></a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <img src="img/blog/blog-9.jpg" alt="contact-img"
-                                                        title="contact-img" class="rounded mr-3" height="48" />
-                                                        <p class="m-0 d-inline-block align-middle font-16"  style="max-width: 200px;">
-                                                            <a href="apps-ecommerce-products-details.html"
-                                                            class="text-body">GRAND OPENING: PHÚC LONG TRƯƠNG ĐỊNH &
-                                                            PHÚC LONG NGÔ GIA TỰ</a>
-                                                            <br />
-                                                        </p>
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        <div data-simplebar data-simplebar-lg
-                                                            style="max-height: 60px;width: 400px;" class="form-group">
-                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                                            Obcaecati quis quasi, veritatis temporibus eum optio, iure
-                                                            odit a sint consequuntur id cum ut. Eum non est itaque
-                                                            officia voluptatibus qui!
-                                                        </div>
-                                                    </td> 
-                                                    <td>
-                                                        28/10/2022 - 5/11/2022
-                                                    </td>
-
-                                                    <td class="table-action">
-                                                        <a href="admin-add-blog.html" class="action-icon"> <i
+                                                     <td class="table-action text-center" >
+                                                        <a href="admin-add-category.html" class="action-icon"> <i
                                                                 class="mdi mdi-square-edit-outline"></i></a>
                                                         <a href="javascript:void(0);" class="action-icon"> <i
                                                                 class="mdi mdi-delete"></i></a>
