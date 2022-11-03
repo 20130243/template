@@ -1,0 +1,14 @@
+.drop-down__list {
+  display: block;
+  margin-top: 25px;
+  background-color: #f3f2ee;
+  width: 30%;
+  border-radius: 4px;
+}
+
+.drop-down__item {
+  display: flex;
+  padding: 10px 0 0 0;
+  text-align: left;
+  float: left;
+}
