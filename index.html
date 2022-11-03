@@ -1,1923 +1,763 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Hyper - Responsive Bootstrap 4 Admin Dashboard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      content="A fully featured admin theme which can be used to build CRM, CMS, etc."
-      name="description"
-    />
-    <meta content="Coderthemes" name="author" />
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+<html lang="zxx">
 
-    <!-- third party css -->
-    <link
-      href="assets/css/vendor/jquery-jvectormap-1.2.2.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- third party css end -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Male_Fashion Template">
+    <meta name="keywords" content="Male_Fashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Male-Fashion | Template</title>
 
-    <!-- App css -->
-    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link
-      href="assets/css/app.min.css"
-      rel="stylesheet"
-      type="text/css"
-      id="light-style"
-    />
-    <link
-      href="assets/css/app-dark.min.css"
-      rel="stylesheet"
-      type="text/css"
-      id="dark-style"
-    />
-  </head>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-  <body
-    class="loading"
-    data-layout-config='{"leftSideBarTheme":"dark","layoutBoxed":false, "leftSidebarCondensed":false, "leftSidebarScrollable":false,"darkMode":false, "showRightSidebarOnStart": true}'
-  >
-    <!-- Begin page -->
-    <div class="wrapper">
-      <!-- ========== Left Sidebar Start ========== -->
-      <div class="left-side-menu">
-        <!-- LOGO -->
-        <a href="index.html" class="logo text-center logo-light">
-          <span class="logo-lg">
-            <img src="assets/images/logo.png" alt="" height="16" />
-          </span>
-          <span class="logo-sm">
-            <img src="assets/images/logo_sm.png" alt="" height="16" />
-          </span>
-        </a>
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/trangchu.css" type="text/css">
+</head>
 
-        <!-- LOGO -->
-        <a href="index.html" class="logo text-center logo-dark">
-          <span class="logo-lg">
-            <img src="assets/images/logo-dark.png" alt="" height="16" />
-          </span>
-          <span class="logo-sm">
-            <img src="assets/images/logo_sm_dark.png" alt="" height="16" />
-          </span>
-        </a>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
 
-        <div class="h-100" id="left-side-menu-container" data-simplebar>
-          <!--- Sidemenu -->
-          <ul class="metismenu side-nav">
-            <li class="side-nav-title side-nav-item">Navigation</li>
-
-            <li class="side-nav-item">
-              <a href="javascript: void(0);" class="side-nav-link">
-                <i class="uil-home-alt"></i>
-                <span class="badge badge-success float-right">4</span>
-                <span> Dashboards </span>
-              </a>
-              <ul class="side-nav-second-level" aria-expanded="false">
-                <li>
-                  <a href="dashboard-analytics.html">Analytics</a>
-                </li>
-                <li>
-                  <a href="dashboard-crm.html">CRM</a>
-                </li>
-                <li>
-                  <a href="index.html">Ecommerce</a>
-                </li>
-                <li>
-                  <a href="dashboard-projects.html">Projects</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="side-nav-title side-nav-item">Apps</li>
-
-            <li class="side-nav-item">
-              <a href="apps-calendar.html" class="side-nav-link">
-                <i class="uil-calender"></i>
-                <span> Calendar </span>
-              </a>
-            </li>
-
-            <li class="side-nav-item">
-              <a href="landing.html" target="_blank" class="side-nav-link">
-                <i class="uil-globe"></i>
-                <span class="badge badge-light float-right">New</span>
-                <span> Landing </span>
-              </a>
-            </li>
-
-            <li class="side-nav-item">
-              <a href="javascript: void(0);" class="side-nav-link">
-                <i class="uil-window"></i>
-                <span> Layouts </span>
-                <span class="menu-arrow"></span>
-              </a>
-              <ul class="side-nav-second-level" aria-expanded="false">
-                <li>
-                  <a href="layouts-horizontal.html">Horizontal</a>
-                </li>
-                <li>
-                  <a href="layouts-detached.html">Detached</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="side-nav-item">
-              <a href="javascript: void(0);" class="side-nav-link">
-                <i class="uil-package"></i>
-                <span> Extended UI </span>
-                <span class="menu-arrow"></span>
-              </a>
-              <ul class="side-nav-second-level" aria-expanded="false">
-                <li>
-                  <a href="extended-dragula.html">Dragula</a>
-                </li>
-                <li>
-                  <a href="extended-range-slider.html">Range Slider</a>
-                </li>
-                <li>
-                  <a href="extended-ratings.html">Ratings</a>
-                </li>
-                <li>
-                  <a href="extended-scrollbar.html">Scrollbar</a>
-                </li>
-                <li>
-                  <a href="extended-scrollspy.html">Scrollspy</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="side-nav-item">
-              <a href="widgets.html" class="side-nav-link">
-                <i class="uil-layer-group"></i>
-                <span> Widgets </span>
-              </a>
-            </li>
-
-            <li class="side-nav-item">
-              <a href="javascript: void(0);" class="side-nav-link">
-                <i class="uil-streering"></i>
-                <span> Icons </span>
-                <span class="menu-arrow"></span>
-              </a>
-              <ul class="side-nav-second-level" aria-expanded="false">
-                <li>
-                  <a href="icons-dripicons.html">Dripicons</a>
-                </li>
-                <li>
-                  <a href="icons-mdi.html">Material Design</a>
-                </li>
-                <li>
-                  <a href="icons-unicons.html">Unicons</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="side-nav-item">
-              <a href="javascript: void(0);" class="side-nav-link">
-                <i class="uil-document-layout-center"></i>
-                <span> Forms </span>
-                <span class="menu-arrow"></span>
-              </a>
-              <ul class="side-nav-second-level" aria-expanded="false">
-                <li>
-                  <a href="form-elements.html">Basic Elements</a>
-                </li>
-                <li>
-                  <a href="form-advanced.html">Form Advanced</a>
-                </li>
-                <li>
-                  <a href="form-validation.html">Validation</a>
-                </li>
-                <li>
-                  <a href="form-wizard.html">Wizard</a>
-                </li>
-                <li>
-                  <a href="form-fileuploads.html">File Uploads</a>
-                </li>
-                <li>
-                  <a href="form-editors.html">Editors</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="side-nav-item">
-              <a href="javascript: void(0);" class="side-nav-link">
-                <i class="uil-chart"></i>
-                <span> Charts </span>
-                <span class="menu-arrow"></span>
-              </a>
-              <ul class="side-nav-second-level" aria-expanded="false">
-                <li class="side-nav-item">
-                  <a href="javascript: void(0);" aria-expanded="false"
-                    >Apex Charts
-                    <span class="menu-arrow"></span>
-                  </a>
-                  <ul class="side-nav-third-level" aria-expanded="false">
-                    <li>
-                      <a href="charts-apex-area.html">Area</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-bar.html">Bar</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-bubble.html">Bubble</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-candlestick.html">Candlestick</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-column.html">Column</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-heatmap.html">Heatmap</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-line.html">Line</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-mixed.html">Mixed</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-pie.html">Pie</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-radar.html">Radar</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-radialbar.html">RadialBar</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-scatter.html">Scatter</a>
-                    </li>
-                    <li>
-                      <a href="charts-apex-sparklines.html">Sparklines</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="charts-brite.html">Britecharts</a>
-                </li>
-                <li>
-                  <a href="charts-chartjs.html">Chartjs</a>
-                </li>
-                <li>
-                  <a href="charts-sparkline.html">Sparklines</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="side-nav-item">
-              <a href="javascript: void(0);" class="side-nav-link">
-                <i class="uil-table"></i>
-                <span> Tables </span>
-                <span class="menu-arrow"></span>
-              </a>
-              <ul class="side-nav-second-level" aria-expanded="false">
-                <li>
-                  <a href="tables-basic.html">Basic Tables</a>
-                </li>
-                <li>
-                  <a href="tables-datatable.html">Data Tables</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="side-nav-item">
-              <a href="javascript: void(0);" class="side-nav-link">
-                <i class="uil-location-point"></i>
-                <span> Maps </span>
-                <span class="menu-arrow"></span>
-              </a>
-              <ul class="side-nav-second-level" aria-expanded="false">
-                <li>
-                  <a href="maps-google.html">Google Maps</a>
-                </li>
-                <li>
-                  <a href="maps-vector.html">Vector Maps</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="side-nav-item">
-              <a href="javascript: void(0);" class="side-nav-link">
-                <i class="uil-folder-plus"></i>
-                <span> Multi Level </span>
-                <span class="menu-arrow"></span>
-              </a>
-              <ul class="side-nav-second-level" aria-expanded="false">
-                <li class="side-nav-item">
-                  <a href="javascript: void(0);" aria-expanded="false"
-                    >Second Level
-                    <span class="menu-arrow"></span>
-                  </a>
-                  <ul class="side-nav-third-level" aria-expanded="false">
-                    <li>
-                      <a href="javascript: void(0);">Item 1</a>
-                    </li>
-                    <li>
-                      <a href="javascript: void(0);">Item 2</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="side-nav-item">
-                  <a href="javascript: void(0);" aria-expanded="false"
-                    >Third Level
-                    <span class="menu-arrow"></span>
-                  </a>
-                  <ul class="side-nav-third-level" aria-expanded="false">
-                    <li>
-                      <a href="javascript: void(0);">Item 1</a>
-                    </li>
-                    <li class="side-nav-item">
-                      <a href="javascript: void(0);" aria-expanded="false"
-                        >Item 2
-                        <span class="menu-arrow"></span>
-                      </a>
-                      <ul class="side-nav-forth-level" aria-expanded="false">
-                        <li>
-                          <a href="javascript: void(0);">Item 2.1</a>
-                        </li>
-                        <li>
-                          <a href="javascript: void(0);">Item 2.2</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-
-          <!-- Help Box -->
-          <div class="help-box text-white text-center">
-            <a
-              href="javascript: void(0);"
-              class="float-right close-btn text-white"
-            >
-              <i class="mdi mdi-close"></i>
-            </a>
-            <img
-              src="assets/images/help-icon.svg"
-              height="90"
-              alt="Helper Icon Image"
-            />
-            <h5 class="mt-3">Unlimited Access</h5>
-            <p class="mb-3">
-              Upgrade to plan to get access to unlimited reports
-            </p>
-            <a href="javascript: void(0);" class="btn btn-outline-light btn-sm"
-              >Upgrade</a
-            >
-          </div>
-          <!-- end Help Box -->
-          <!-- End Sidebar -->
-
-          <div class="clearfix"></div>
-        </div>
-        <!-- Sidebar -left -->
-      </div>
-      <!-- Left Sidebar End -->
-
-      <!-- ============================================================== -->
-      <!-- Start Page Content here -->
-      <!-- ============================================================== -->
-
-      <div class="content-page">
-        <div class="content">
-          <!-- Topbar Start -->
-          <div class="navbar-custom">
-            <ul class="list-unstyled topbar-right-menu float-right mb-0">
-              <li class="dropdown notification-list d-lg-none">
-                <a
-                  class="nav-link dropdown-toggle arrow-none"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="false"
-                  aria-expanded="false"
-                >
-                  <i class="dripicons-search noti-icon"></i>
-                </a>
-                <div
-                  class="dropdown-menu dropdown-menu-animated dropdown-lg p-0"
-                >
-                  <form class="p-3">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Search ..."
-                      aria-label="Recipient's username"
-                    />
-                  </form>
-                </div>
-              </li>
-              <li class="dropdown notification-list topbar-dropdown">
-                <a
-                  class="nav-link dropdown-toggle arrow-none"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="false"
-                  aria-expanded="false"
-                >
-                  <img
-                    src="assets/images/flags/us.jpg"
-                    alt="user-image"
-                    class="mr-0 mr-sm-1"
-                    height="12"
-                  />
-                  <span class="align-middle d-none d-sm-inline-block"
-                    >English</span
-                  >
-                  <i
-                    class="mdi mdi-chevron-down d-none d-sm-inline-block align-middle"
-                  ></i>
-                </a>
-                <div
-                  class="dropdown-menu dropdown-menu-right dropdown-menu-animated topbar-dropdown-menu"
-                >
-                  <!-- item-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item notify-item"
-                  >
-                    <img
-                      src="assets/images/flags/germany.jpg"
-                      alt="user-image"
-                      class="mr-1"
-                      height="12"
-                    />
-                    <span class="align-middle">German</span>
-                  </a>
-
-                  <!-- item-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item notify-item"
-                  >
-                    <img
-                      src="assets/images/flags/italy.jpg"
-                      alt="user-image"
-                      class="mr-1"
-                      height="12"
-                    />
-                    <span class="align-middle">Italian</span>
-                  </a>
-
-                  <!-- item-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item notify-item"
-                  >
-                    <img
-                      src="assets/images/flags/spain.jpg"
-                      alt="user-image"
-                      class="mr-1"
-                      height="12"
-                    />
-                    <span class="align-middle">Spanish</span>
-                  </a>
-
-                  <!-- item-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item notify-item"
-                  >
-                    <img
-                      src="assets/images/flags/russia.jpg"
-                      alt="user-image"
-                      class="mr-1"
-                      height="12"
-                    />
-                    <span class="align-middle">Russian</span>
-                  </a>
-                </div>
-              </li>
-
-              <li class="dropdown notification-list">
-                <a
-                  class="nav-link dropdown-toggle arrow-none"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="false"
-                  aria-expanded="false"
-                >
-                  <i class="dripicons-bell noti-icon"></i>
-                  <span class="noti-icon-badge"></span>
-                </a>
-                <div
-                  class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-lg"
-                >
-                  <!-- item-->
-                  <div class="dropdown-item noti-title">
-                    <h5 class="m-0">
-                      <span class="float-right">
-                        <a href="javascript: void(0);" class="text-dark">
-                          <small>Clear All</small>
-                        </a> </span
-                      >Notification
-                    </h5>
-                  </div>
-
-                  <div style="max-height: 230px" data-simplebar>
-                    <!-- item-->
-                    <a
-                      href="javascript:void(0);"
-                      class="dropdown-item notify-item"
-                    >
-                      <div class="notify-icon bg-primary">
-                        <i class="mdi mdi-comment-account-outline"></i>
-                      </div>
-                      <p class="notify-details">
-                        Caleb Flakelar commented on Admin
-                        <small class="text-muted">1 min ago</small>
-                      </p>
-                    </a>
-
-                    <!-- item-->
-                    <a
-                      href="javascript:void(0);"
-                      class="dropdown-item notify-item"
-                    >
-                      <div class="notify-icon bg-info">
-                        <i class="mdi mdi-account-plus"></i>
-                      </div>
-                      <p class="notify-details">
-                        New user registered.
-                        <small class="text-muted">5 hours ago</small>
-                      </p>
-                    </a>
-
-                    <!-- item-->
-                    <a
-                      href="javascript:void(0);"
-                      class="dropdown-item notify-item"
-                    >
-                      <div class="notify-icon">
-                        <img
-                          src="assets/images/users/avatar-2.jpg"
-                          class="img-fluid rounded-circle"
-                          alt=""
-                        />
-                      </div>
-                      <p class="notify-details">Cristina Pride</p>
-                      <p class="text-muted mb-0 user-msg">
-                        <small
-                          >Hi, How are you? What about our next meeting</small
-                        >
-                      </p>
-                    </a>
-
-                    <!-- item-->
-                    <a
-                      href="javascript:void(0);"
-                      class="dropdown-item notify-item"
-                    >
-                      <div class="notify-icon bg-primary">
-                        <i class="mdi mdi-comment-account-outline"></i>
-                      </div>
-                      <p class="notify-details">
-                        Caleb Flakelar commented on Admin
-                        <small class="text-muted">4 days ago</small>
-                      </p>
-                    </a>
-
-                    <!-- item-->
-                    <a
-                      href="javascript:void(0);"
-                      class="dropdown-item notify-item"
-                    >
-                      <div class="notify-icon">
-                        <img
-                          src="assets/images/users/avatar-4.jpg"
-                          class="img-fluid rounded-circle"
-                          alt=""
-                        />
-                      </div>
-                      <p class="notify-details">Karen Robinson</p>
-                      <p class="text-muted mb-0 user-msg">
-                        <small
-                          >Wow ! this admin looks good and awesome design</small
-                        >
-                      </p>
-                    </a>
-
-                    <!-- item-->
-                    <a
-                      href="javascript:void(0);"
-                      class="dropdown-item notify-item"
-                    >
-                      <div class="notify-icon bg-info">
-                        <i class="mdi mdi-heart"></i>
-                      </div>
-                      <p class="notify-details">
-                        Carlos Crouch liked
-                        <b>Admin</b>
-                        <small class="text-muted">13 days ago</small>
-                      </p>
-                    </a>
-                  </div>
-
-                  <!-- All-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item text-center text-primary notify-item notify-all"
-                  >
-                    View All
-                  </a>
-                </div>
-              </li>
-
-              <li class="dropdown notification-list d-none d-sm-inline-block">
-                <a
-                  class="nav-link dropdown-toggle arrow-none"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="false"
-                  aria-expanded="false"
-                >
-                  <i class="dripicons-view-apps noti-icon"></i>
-                </a>
-                <div
-                  class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-lg p-0"
-                >
-                  <div class="p-2">
-                    <div class="row no-gutters">
-                      <div class="col">
-                        <a class="dropdown-icon-item" href="#">
-                          <img
-                            src="assets/images/brands/slack.png"
-                            alt="slack"
-                          />
-                          <span>Slack</span>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a class="dropdown-icon-item" href="#">
-                          <img
-                            src="assets/images/brands/github.png"
-                            alt="Github"
-                          />
-                          <span>GitHub</span>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a class="dropdown-icon-item" href="#">
-                          <img
-                            src="assets/images/brands/dribbble.png"
-                            alt="dribbble"
-                          />
-                          <span>Dribbble</span>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="row no-gutters">
-                      <div class="col">
-                        <a class="dropdown-icon-item" href="#">
-                          <img
-                            src="assets/images/brands/bitbucket.png"
-                            alt="bitbucket"
-                          />
-                          <span>Bitbucket</span>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a class="dropdown-icon-item" href="#">
-                          <img
-                            src="assets/images/brands/dropbox.png"
-                            alt="dropbox"
-                          />
-                          <span>Dropbox</span>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a class="dropdown-icon-item" href="#">
-                          <img
-                            src="assets/images/brands/g-suite.png"
-                            alt="G Suite"
-                          />
-                          <span>G Suite</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li class="notification-list">
-                <a
-                  class="nav-link right-bar-toggle"
-                  href="javascript: void(0);"
-                >
-                  <i class="dripicons-gear noti-icon"></i>
-                </a>
-              </li>
-
-              <li class="dropdown notification-list">
-                <a
-                  class="nav-link dropdown-toggle nav-user arrow-none mr-0"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="false"
-                  aria-expanded="false"
-                >
-                  <span class="account-user-avatar">
-                    <img
-                      src="assets/images/users/avatar-1.jpg"
-                      alt="user-image"
-                      class="rounded-circle"
-                    />
-                  </span>
-                  <span>
-                    <span class="account-user-name">Dominic Keller</span>
-                    <span class="account-position">Founder</span>
-                  </span>
-                </a>
-                <div
-                  class="dropdown-menu dropdown-menu-right dropdown-menu-animated topbar-dropdown-menu profile-dropdown"
-                >
-                  <!-- item-->
-                  <div class="dropdown-header noti-title">
-                    <h6 class="text-overflow m-0">Welcome !</h6>
-                  </div>
-
-                  <!-- item-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item notify-item"
-                  >
-                    <i class="mdi mdi-account-circle mr-1"></i>
-                    <span>My Account</span>
-                  </a>
-
-                  <!-- item-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item notify-item"
-                  >
-                    <i class="mdi mdi-account-edit mr-1"></i>
-                    <span>Settings</span>
-                  </a>
-
-                  <!-- item-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item notify-item"
-                  >
-                    <i class="mdi mdi-lifebuoy mr-1"></i>
-                    <span>Support</span>
-                  </a>
-
-                  <!-- item-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item notify-item"
-                  >
-                    <i class="mdi mdi-lock-outline mr-1"></i>
-                    <span>Lock Screen</span>
-                  </a>
-
-                  <!-- item-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item notify-item"
-                  >
-                    <i class="mdi mdi-logout mr-1"></i>
-                    <span>Logout</span>
-                  </a>
-                </div>
-              </li>
-            </ul>
-            <button class="button-menu-mobile open-left disable-btn">
-              <i class="mdi mdi-menu"></i>
-            </button>
-            <div class="app-search dropdown d-none d-lg-block">
-              <form>
-                <div class="input-group">
-                  <input
-                    type="text"
-                    class="form-control dropdown-toggle"
-                    placeholder="Search..."
-                    id="top-search"
-                  />
-                  <span class="mdi mdi-magnify search-icon"></span>
-                  <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit">
-                      Search
-                    </button>
-                  </div>
-                </div>
-              </form>
-
-              <div
-                class="dropdown-menu dropdown-menu-animated dropdown-lg"
-                id="search-dropdown"
-              >
-                <!-- item-->
-                <div class="dropdown-header noti-title">
-                  <h5 class="text-overflow mb-2">
-                    Found <span class="text-danger">17</span> results
-                  </h5>
-                </div>
-
-                <!-- item-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                  <i class="uil-notes font-16 mr-1"></i>
-                  <span>Analytics Report</span>
-                </a>
-
-                <!-- item-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                  <i class="uil-life-ring font-16 mr-1"></i>
-                  <span>How can I help you?</span>
-                </a>
-
-                <!-- item-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                  <i class="uil-cog font-16 mr-1"></i>
-                  <span>User profile settings</span>
-                </a>
-
-                <!-- item-->
-                <div class="dropdown-header noti-title">
-                  <h6 class="text-overflow mb-2 text-uppercase">Users</h6>
-                </div>
-
-                <div class="notification-list">
-                  <!-- item-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item notify-item"
-                  >
-                    <div class="media">
-                      <img
-                        class="d-flex mr-2 rounded-circle"
-                        src="assets/images/users/avatar-2.jpg"
-                        alt="Generic placeholder image"
-                        height="32"
-                      />
-                      <div class="media-body">
-                        <h5 class="m-0 font-14">Erwin Brown</h5>
-                        <span class="font-12 mb-0">UI Designer</span>
-                      </div>
-                    </div>
-                  </a>
-
-                  <!-- item-->
-                  <a
-                    href="javascript:void(0);"
-                    class="dropdown-item notify-item"
-                  >
-                    <div class="media">
-                      <img
-                        class="d-flex mr-2 rounded-circle"
-                        src="assets/images/users/avatar-5.jpg"
-                        alt="Generic placeholder image"
-                        height="32"
-                      />
-                      <div class="media-body">
-                        <h5 class="m-0 font-14">Jacob Deo</h5>
-                        <span class="font-12 mb-0">Developer</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__option">
+            <div class="offcanvas__links">
+                <a href="#">Sign in</a>
+                <a href="#">FAQs</a>
             </div>
-          </div>
-          <!-- end Topbar -->
+            <div class="offcanvas__top__hover">
+                <span>Usd <i class="arrow_carrot-down"></i></span>
+                <ul>
+                    <li>USD</li>
+                    <li>EUR</li>
+                    <li>USD</li>
+                </ul>
+            </div>
+        </div>
+        <div class="offcanvas__nav__option">
+            <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
+            <a href="#"><img src="img/icon/heart.png" alt=""></a>
+            <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
+            <div class="price">$0.00</div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__text">
+            <p>Free shipping, 30-day return or refund guarantee.</p>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
 
-          <!-- Start Content-->
-          <div class="container-fluid">
-            <!-- start page title -->
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7">
+                        <div class="header__top__left">
+                            <p>Free shipping, 30-day return or refund guarantee.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5">
+                        <div class="header__top__right">
+                            <div class="header__top__links">
+                                <a href="#">Sign in</a>
+                                <a href="#">FAQs</a>
+                            </div>
+                            <div class="header__top__hover">
+                                <span>Usd <i class="arrow_carrot-down"></i></span>
+                                <ul>
+                                    <li>USD</li>
+                                    <li>EUR</li>
+                                    <li>USD</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <div class="row">
-              <div class="col-12">
-                <div class="page-title-box">
-                  <div class="page-title-right">
-                    <form class="form-inline">
-                      <div class="form-group">
-                        <div class="input-group">
-                          <input
-                            type="text"
-                            class="form-control form-control-light"
-                            id="dash-daterange"
-                          />
-                          <div class="input-group-append">
-                            <span
-                              class="input-group-text bg-primary border-primary text-white"
-                            >
-                              <i class="mdi mdi-calendar-range font-13"></i>
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="./index.html">Trang Chủ</a></li>
+                            <li><a href="./shop.html">Cửa Hàng</a></li>
+                            <li><a href="#">Trang</a>
+                                <ul class="dropdown">
+                                    <li><a href="./about.html">About Us</a></li>
+                                    <li><a href="./shop-details.html">Shop Details</a></li>
+                                    <li><a href="./shopping-cart.html">Shopping Cart</a></li>
+                                    <li><a href="./checkout.html">Check Out</a></li>
+                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./blog.html">Bài Viết</a></li>
+                            <li><a href="./contact.html">Liên Hệ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__nav__option">
+                        <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
+                        <a href="#"><img src="img/icon/heart.png" alt=""></a>
+                        <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
+                        <div class="price">$0.00</div>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero">
+        <div class="hero__slider owl-carousel">
+            <div class="hero__items set-bg" data-setbg="img/hero/h1.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-7 col-md-8">
+                            <div class="hero__text">
+                                <div class="hero__social">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__items set-bg" data-setbg="img/hero/h2.png">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-7 col-md-8">
+                            <div class="hero__text">
+
+                                <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="hero__items set-bg" data-setbg="img/hero/h3.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-7 col-md-8">
+                            <div class="hero__text">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Banner Section Begin -->
+    <div class="containerr">
+        <a class="abc" href="index.html">Trang chủ </a><i>/</i>
+        <a class="abc" href="index.html">Khuyến mãi</a></div>
+    <section class="banner spad">
+        <div class="container">
+            <div class="roww">
+                <div class="col-lg-55">
+                    <div href="#" class="banner__item">
+                        <div class="banner__item__pic" style="max-width: 100%">
+                            <img src="img/banner/pl1.png" alt="">
+                        </div>
+                        <div class="list_meta">
+                            <span>01.10 - 04.10.2022</span>
+                            <span>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                795
                             </span>
-                          </div>
                         </div>
-                      </div>
-                      <a
-                        href="javascript: void(0);"
-                        class="btn btn-primary ml-2"
-                      >
-                        <i class="mdi mdi-autorenew"></i>
-                      </a>
-                      <a
-                        href="javascript: void(0);"
-                        class="btn btn-primary ml-1"
-                      >
-                        <i class="mdi mdi-filter-variant"></i>
-                      </a>
-                    </form>
-                  </div>
-                  <h4 class="page-title">Dashboard</h4>
+                        <div class="banner__item__text">
+                            <h6>GRAND OPENING: PHÚC LONG 117 HÙNG VƯƠNG</h6>
+
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <!-- end page title -->
-
-            <div class="row">
-              <div class="col-xl-5 col-lg-6">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="card widget-flat">
-                      <div class="card-body">
-                        <div class="float-right">
-                          <i class="mdi mdi-account-multiple widget-icon"></i>
+                <div class="col-lg-55">
+                    <div href="#" class="banner__item">
+                        <div class="banner__item__pic" style="max-width: 100%">
+                            <img src="img/banner/pl2.png" alt="">
                         </div>
-                        <h5
-                          class="text-muted font-weight-normal mt-0"
-                          title="Number of Customers"
-                        >
-                          Customers
-                        </h5>
-                        <h3 class="mt-3 mb-3">36,254</h3>
-                        <p class="mb-0 text-muted">
-                          <span class="text-success mr-2"
-                            ><i class="mdi mdi-arrow-up-bold"></i> 5.27%</span
-                          >
-                          <span class="text-nowrap">Since last month</span>
-                        </p>
-                      </div>
-                      <!-- end card-body-->
-                    </div>
-                    <!-- end card-->
-                  </div>
-                  <!-- end col-->
-
-                  <div class="col-lg-6">
-                    <div class="card widget-flat">
-                      <div class="card-body">
-                        <div class="float-right">
-                          <i class="mdi mdi-cart-plus widget-icon"></i>
+                        <div class="list_meta">
+                            <span>30.09.2022 - 02.10.2022</span>
+                            <span>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                990
+                            </span>
                         </div>
-                        <h5
-                          class="text-muted font-weight-normal mt-0"
-                          title="Number of Orders"
-                        >
-                          Orders
-                        </h5>
-                        <h3 class="mt-3 mb-3">5,543</h3>
-                        <p class="mb-0 text-muted">
-                          <span class="text-danger mr-2"
-                            ><i class="mdi mdi-arrow-down-bold"></i> 1.08%</span
-                          >
-                          <span class="text-nowrap">Since last month</span>
-                        </p>
-                      </div>
-                      <!-- end card-body-->
+                        <div class="banner__item__text">
+                            <h6>GRAND OPENING PHÚC LONG NGUYỄN ÁI QUỐC & PHÚC LONG ĐƯỜNG 3 THÁNG 2</h6>
+                        </div>
                     </div>
-                    <!-- end card-->
-                  </div>
-                  <!-- end col-->
                 </div>
-                <!-- end row -->
-
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="card widget-flat">
-                      <div class="card-body">
-                        <div class="float-right">
-                          <i class="mdi mdi-currency-usd widget-icon"></i>
+                <div class="col-lg-55">
+                    <div href="#"class="banner__item">
+                        <div class="banner__item__pic" style="max-width: 100%">
+                            <img src="img/banner/pl3.jpg" alt="">
                         </div>
-                        <h5
-                          class="text-muted font-weight-normal mt-0"
-                          title="Average Revenue"
-                        >
-                          Revenue
-                        </h5>
-                        <h3 class="mt-3 mb-3">$6,254</h3>
-                        <p class="mb-0 text-muted">
-                          <span class="text-danger mr-2"
-                            ><i class="mdi mdi-arrow-down-bold"></i> 7.00%</span
-                          >
-                          <span class="text-nowrap">Since last month</span>
-                        </p>
-                      </div>
-                      <!-- end card-body-->
-                    </div>
-                    <!-- end card-->
-                  </div>
-                  <!-- end col-->
-
-                  <div class="col-lg-6">
-                    <div class="card widget-flat">
-                      <div class="card-body">
-                        <div class="float-right">
-                          <i class="mdi mdi-pulse widget-icon"></i>
+                        <div class="list_meta">
+                            <span>23.09 - 25.09.2022 </span>
+                            <span>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                575
+                            </span>
                         </div>
-                        <h5
-                          class="text-muted font-weight-normal mt-0"
-                          title="Growth"
-                        >
-                          Growth
-                        </h5>
-                        <h3 class="mt-3 mb-3">+ 30.56%</h3>
-                        <p class="mb-0 text-muted">
-                          <span class="text-success mr-2"
-                            ><i class="mdi mdi-arrow-up-bold"></i> 4.87%</span
-                          >
-                          <span class="text-nowrap">Since last month</span>
-                        </p>
-                      </div>
-                      <!-- end card-body-->
+                        <div class="banner__item__text">
+                            <h6>GRAND OPENING PHÚC LONG BICONSI</h6>
+                        </div>
                     </div>
-                    <!-- end card-->
-                  </div>
-                  <!-- end col-->
                 </div>
-                <!-- end row -->
-              </div>
-              <!-- end col -->
 
-              <div class="col-xl-7 col-lg-6">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="dropdown float-right">
-                      <a
-                        href="#"
-                        class="dropdown-toggle arrow-none card-drop"
-                        data-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        <i class="mdi mdi-dots-vertical"></i>
-                      </a>
-                      <div class="dropdown-menu dropdown-menu-right">
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Sales Report</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Export Report</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Profit</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Action</a
-                        >
-                      </div>
-                    </div>
-                    <h4 class="header-title mb-3">Projections Vs Actuals</h4>
-
-                    <div
-                      id="high-performing-product"
-                      class="apex-charts"
-                      data-colors="#727cf5,#e3eaef"
-                    ></div>
-                  </div>
-                  <!-- end card-body-->
-                </div>
-                <!-- end card-->
-              </div>
-              <!-- end col -->
-            </div>
-            <!-- end row -->
-
-            <div class="row">
-              <div class="col-lg-8">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="dropdown float-right">
-                      <a
-                        href="#"
-                        class="dropdown-toggle arrow-none card-drop"
-                        data-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        <i class="mdi mdi-dots-vertical"></i>
-                      </a>
-                      <div class="dropdown-menu dropdown-menu-right">
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Sales Report</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Export Report</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Profit</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Action</a
-                        >
-                      </div>
-                    </div>
-                    <h4 class="header-title mb-3">Revenue</h4>
-
-                    <div class="chart-content-bg">
-                      <div class="row text-center">
-                        <div class="col-md-6">
-                          <p class="text-muted mb-0 mt-3">Current Week</p>
-                          <h2 class="font-weight-normal mb-3">
-                            <small
-                              class="mdi mdi-checkbox-blank-circle text-primary align-middle mr-1"
-                            ></small>
-                            <span>$58,254</span>
-                          </h2>
-                        </div>
-                        <div class="col-md-6">
-                          <p class="text-muted mb-0 mt-3">Previous Week</p>
-                          <h2 class="font-weight-normal mb-3">
-                            <small
-                              class="mdi mdi-checkbox-blank-circle text-success align-middle mr-1"
-                            ></small>
-                            <span>$69,524</span>
-                          </h2>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="dash-item-overlay d-none d-md-block">
-                      <h5>Today's Earning: $2,562.30</h5>
-                      <p class="text-muted font-13 mb-3 mt-2">
-                        Etiam ultricies nisi vel augue. Curabitur ullamcorper
-                        ultricies nisi. Nam eget dui. Etiam rhoncus...
-                      </p>
-                      <a
-                        href="javascript: void(0);"
-                        class="btn btn-outline-primary"
-                        >View Statements
-                        <i class="mdi mdi-arrow-right ml-2"></i>
-                      </a>
-                    </div>
-
-                    <div
-                      id="revenue-chart"
-                      class="apex-charts mt-3"
-                      data-colors="#727cf5,#0acf97"
-                    ></div>
-                  </div>
-                  <!-- end card-body-->
-                </div>
-                <!-- end card-->
-              </div>
-              <!-- end col-->
-
-              <div class="col-lg-4">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="dropdown float-right">
-                      <a
-                        href="#"
-                        class="dropdown-toggle arrow-none card-drop"
-                        data-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        <i class="mdi mdi-dots-vertical"></i>
-                      </a>
-                      <div class="dropdown-menu dropdown-menu-right">
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Sales Report</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Export Report</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Profit</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Action</a
-                        >
-                      </div>
-                    </div>
-                    <h4 class="header-title">Revenue By Location</h4>
-                    <div class="mb-4 mt-4">
-                      <div id="world-map-markers" style="height: 224px"></div>
-                    </div>
-
-                    <h5 class="mb-1 mt-0 font-weight-normal">New York</h5>
-                    <div class="progress-w-percent">
-                      <span class="progress-value font-weight-bold">72k </span>
-                      <div class="progress progress-sm">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 72%"
-                          aria-valuenow="72"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-
-                    <h5 class="mb-1 mt-0 font-weight-normal">San Francisco</h5>
-                    <div class="progress-w-percent">
-                      <span class="progress-value font-weight-bold">39k </span>
-                      <div class="progress progress-sm">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 39%"
-                          aria-valuenow="39"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-
-                    <h5 class="mb-1 mt-0 font-weight-normal">Sydney</h5>
-                    <div class="progress-w-percent">
-                      <span class="progress-value font-weight-bold">25k </span>
-                      <div class="progress progress-sm">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 39%"
-                          aria-valuenow="39"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-
-                    <h5 class="mb-1 mt-0 font-weight-normal">Singapore</h5>
-                    <div class="progress-w-percent mb-0">
-                      <span class="progress-value font-weight-bold">61k </span>
-                      <div class="progress progress-sm">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 61%"
-                          aria-valuenow="61"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- end card-body-->
-                </div>
-                <!-- end card-->
-              </div>
-              <!-- end col-->
-            </div>
-            <!-- end row -->
-
-            <div class="row">
-              <div class="col-xl-6 col-lg-12 order-lg-2 order-xl-1">
-                <div class="card">
-                  <div class="card-body">
-                    <a href="" class="btn btn-sm btn-link float-right mb-3"
-                      >Export
-                      <i class="mdi mdi-download ml-1"></i>
-                    </a>
-                    <h4 class="header-title mt-2">Top Selling Products</h4>
-
-                    <div class="table-responsive">
-                      <table
-                        class="table table-centered table-nowrap table-hover mb-0"
-                      >
-                        <tbody>
-                          <tr>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                ASOS Ridley High Waist
-                              </h5>
-                              <span class="text-muted font-13"
-                                >07 April 2018</span
-                              >
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                $79.49
-                              </h5>
-                              <span class="text-muted font-13">Price</span>
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                82
-                              </h5>
-                              <span class="text-muted font-13">Quantity</span>
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                $6,518.18
-                              </h5>
-                              <span class="text-muted font-13">Amount</span>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                Marco Lightweight Shirt
-                              </h5>
-                              <span class="text-muted font-13"
-                                >25 March 2018</span
-                              >
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                $128.50
-                              </h5>
-                              <span class="text-muted font-13">Price</span>
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                37
-                              </h5>
-                              <span class="text-muted font-13">Quantity</span>
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                $4,754.50
-                              </h5>
-                              <span class="text-muted font-13">Amount</span>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                Half Sleeve Shirt
-                              </h5>
-                              <span class="text-muted font-13"
-                                >17 March 2018</span
-                              >
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                $39.99
-                              </h5>
-                              <span class="text-muted font-13">Price</span>
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                64
-                              </h5>
-                              <span class="text-muted font-13">Quantity</span>
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                $2,559.36
-                              </h5>
-                              <span class="text-muted font-13">Amount</span>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                Lightweight Jacket
-                              </h5>
-                              <span class="text-muted font-13"
-                                >12 March 2018</span
-                              >
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                $20.00
-                              </h5>
-                              <span class="text-muted font-13">Price</span>
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                184
-                              </h5>
-                              <span class="text-muted font-13">Quantity</span>
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                $3,680.00
-                              </h5>
-                              <span class="text-muted font-13">Amount</span>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                Marco Shoes
-                              </h5>
-                              <span class="text-muted font-13"
-                                >05 March 2018</span
-                              >
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                $28.49
-                              </h5>
-                              <span class="text-muted font-13">Price</span>
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                69
-                              </h5>
-                              <span class="text-muted font-13">Quantity</span>
-                            </td>
-                            <td>
-                              <h5 class="font-14 my-1 font-weight-normal">
-                                $1,965.81
-                              </h5>
-                              <span class="text-muted font-13">Amount</span>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    <!-- end table-responsive-->
-                  </div>
-                  <!-- end card-body-->
-                </div>
-                <!-- end card-->
-              </div>
-              <!-- end col-->
-
-              <div class="col-xl-3 col-lg-6 order-lg-1">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="dropdown float-right">
-                      <a
-                        href="#"
-                        class="dropdown-toggle arrow-none card-drop"
-                        data-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        <i class="mdi mdi-dots-vertical"></i>
-                      </a>
-                      <div class="dropdown-menu dropdown-menu-right">
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Sales Report</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Export Report</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Profit</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Action</a
-                        >
-                      </div>
-                    </div>
-                    <h4 class="header-title">Total Sales</h4>
-
-                    <div
-                      id="average-sales"
-                      class="apex-charts mb-4 mt-4"
-                      data-colors="#727cf5,#0acf97,#fa5c7c,#ffbc00"
-                    ></div>
-
-                    <div class="chart-widget-list">
-                      <p>
-                        <i class="mdi mdi-square text-primary"></i> Direct
-                        <span class="float-right">$300.56</span>
-                      </p>
-                      <p>
-                        <i class="mdi mdi-square text-danger"></i> Affilliate
-                        <span class="float-right">$135.18</span>
-                      </p>
-                      <p>
-                        <i class="mdi mdi-square text-success"></i> Sponsored
-                        <span class="float-right">$48.96</span>
-                      </p>
-                      <p class="mb-0">
-                        <i class="mdi mdi-square text-warning"></i> E-mail
-                        <span class="float-right">$154.02</span>
-                      </p>
-                    </div>
-                  </div>
-                  <!-- end card-body-->
-                </div>
-                <!-- end card-->
-              </div>
-              <!-- end col-->
-
-              <div class="col-xl-3 col-lg-6 order-lg-1">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="dropdown float-right">
-                      <a
-                        href="#"
-                        class="dropdown-toggle arrow-none card-drop"
-                        data-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        <i class="mdi mdi-dots-vertical"></i>
-                      </a>
-                      <div class="dropdown-menu dropdown-menu-right">
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Sales Report</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Export Report</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Profit</a
-                        >
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item"
-                          >Action</a
-                        >
-                      </div>
-                    </div>
-                    <h4 class="header-title mb-2">Recent Activity</h4>
-
-                    <div data-simplebar style="max-height: 424px">
-                      <div class="timeline-alt pb-0">
-                        <div class="timeline-item">
-                          <i
-                            class="mdi mdi-upload bg-info-lighten text-info timeline-icon"
-                          ></i>
-                          <div class="timeline-item-info">
-                            <a
-                              href="#"
-                              class="text-info font-weight-bold mb-1 d-block"
-                              >You sold an item</a
-                            >
-                            <small
-                              >Paul Burgess just purchased “Hyper - Admin
-                              Dashboard”!</small
-                            >
-                            <p class="mb-0 pb-2">
-                              <small class="text-muted">5 minutes ago</small>
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="timeline-item">
-                          <i
-                            class="mdi mdi-airplane bg-primary-lighten text-primary timeline-icon"
-                          ></i>
-                          <div class="timeline-item-info">
-                            <a
-                              href="#"
-                              class="text-primary font-weight-bold mb-1 d-block"
-                              >Product on the Bootstrap Market</a
-                            >
-                            <small
-                              >Dave Gamache added
-                              <span class="font-weight-bold"
-                                >Admin Dashboard</span
-                              >
-                            </small>
-                            <p class="mb-0 pb-2">
-                              <small class="text-muted">30 minutes ago</small>
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="timeline-item">
-                          <i
-                            class="mdi mdi-microphone bg-info-lighten text-info timeline-icon"
-                          ></i>
-                          <div class="timeline-item-info">
-                            <a
-                              href="#"
-                              class="text-info font-weight-bold mb-1 d-block"
-                              >Robert Delaney</a
-                            >
-                            <small
-                              >Send you message
-                              <span class="font-weight-bold"
-                                >"Are you there?"</span
-                              >
-                            </small>
-                            <p class="mb-0 pb-2">
-                              <small class="text-muted">2 hours ago</small>
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="timeline-item">
-                          <i
-                            class="mdi mdi-upload bg-primary-lighten text-primary timeline-icon"
-                          ></i>
-                          <div class="timeline-item-info">
-                            <a
-                              href="#"
-                              class="text-primary font-weight-bold mb-1 d-block"
-                              >Audrey Tobey</a
-                            >
-                            <small
-                              >Uploaded a photo
-                              <span class="font-weight-bold">"Error.jpg"</span>
-                            </small>
-                            <p class="mb-0 pb-2">
-                              <small class="text-muted">14 hours ago</small>
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="timeline-item">
-                          <i
-                            class="mdi mdi-upload bg-info-lighten text-info timeline-icon"
-                          ></i>
-                          <div class="timeline-item-info">
-                            <a
-                              href="#"
-                              class="text-info font-weight-bold mb-1 d-block"
-                              >You sold an item</a
-                            >
-                            <small
-                              >Paul Burgess just purchased “Hyper - Admin
-                              Dashboard”!</small
-                            >
-                            <p class="mb-0 pb-2">
-                              <small class="text-muted">16 hours ago</small>
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="timeline-item">
-                          <i
-                            class="mdi mdi-airplane bg-primary-lighten text-primary timeline-icon"
-                          ></i>
-                          <div class="timeline-item-info">
-                            <a
-                              href="#"
-                              class="text-primary font-weight-bold mb-1 d-block"
-                              >Product on the Bootstrap Market</a
-                            >
-                            <small
-                              >Dave Gamache added
-                              <span class="font-weight-bold"
-                                >Admin Dashboard</span
-                              >
-                            </small>
-                            <p class="mb-0 pb-2">
-                              <small class="text-muted">22 hours ago</small>
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="timeline-item">
-                          <i
-                            class="mdi mdi-microphone bg-info-lighten text-info timeline-icon"
-                          ></i>
-                          <div class="timeline-item-info">
-                            <a
-                              href="#"
-                              class="text-info font-weight-bold mb-1 d-block"
-                              >Robert Delaney</a
-                            >
-                            <small
-                              >Send you message
-                              <span class="font-weight-bold"
-                                >"Are you there?"</span
-                              >
-                            </small>
-                            <p class="mb-0 pb-2">
-                              <small class="text-muted">2 days ago</small>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- end timeline -->
-                    </div>
-                    <!-- end slimscroll -->
-                  </div>
-                  <!-- end card-body -->
-                </div>
-                <!-- end card-->
-              </div>
-              <!-- end col -->
-            </div>
-            <!-- end row -->
-          </div>
-          <!-- container -->
         </div>
-        <!-- content -->
-
-        <!-- Footer Start -->
-        <footer class="footer">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-6">2018 - 2020 © Hyper - Coderthemes.com</div>
-              <div class="col-md-6">
-                <div class="text-md-right footer-links d-none d-md-block">
-                  <a href="javascript: void(0);">About</a>
-                  <a href="javascript: void(0);">Support</a>
-                  <a href="javascript: void(0);">Contact Us</a>
+                <div class="col-lg-55">
+                    <div href="#"class="banner__item">
+                        <div class="banner__item__pic" style="max-width: 100%">
+                            <img src="img/banner/pl4.jpg" alt="">
+                        </div>
+                        <div class="list_meta">
+                            <span>17.09 - 14.10.2022</span>
+                            <span>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            1250
+                            </span>
+                            </div>
+                            <div class="banner__item__text">
+                                <h6>COMBO BACK TO SCHOOL - CHỈ TỪ 45,000Đ</h6>
+                            <div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </footer>
-        <!-- end Footer -->
-      </div>
+    </section>
+    <!-- Banner Section End -->
 
-      <!-- ============================================================== -->
-      <!-- End Page content -->
-      <!-- ============================================================== -->
-    </div>
-    <!-- END wrapper -->
-
-    <!-- Right Sidebar -->
-    <div class="right-bar">
-      <div class="rightbar-title">
-        <a href="javascript:void(0);" class="right-bar-toggle float-right">
-          <i class="dripicons-cross noti-icon"></i>
-        </a>
-        <h5 class="m-0">Settings</h5>
-      </div>
-
-      <div class="rightbar-content h-100" data-simplebar>
-        <div class="p-3">
-          <div class="alert alert-warning" role="alert">
-            <strong>Customize </strong> the overall color scheme, sidebar menu,
-            etc.
-          </div>
-
-          <!-- Settings -->
-          <h5 class="mt-3">Color Scheme</h5>
-          <hr class="mt-1" />
-
-          <div class="custom-control custom-switch mb-1">
-            <input
-              type="radio"
-              class="custom-control-input"
-              name="color-scheme-mode"
-              value="light"
-              id="light-mode-check"
-              checked
-            />
-            <label class="custom-control-label" for="light-mode-check"
-              >Light Mode</label
-            >
-          </div>
-
-          <div class="custom-control custom-switch mb-1">
-            <input
-              type="radio"
-              class="custom-control-input"
-              name="color-scheme-mode"
-              value="dark"
-              id="dark-mode-check"
-            />
-            <label class="custom-control-label" for="dark-mode-check"
-              >Dark Mode</label
-            >
-          </div>
-
-          <!-- Width -->
-          <h5 class="mt-4">Width</h5>
-          <hr class="mt-1" />
-          <div class="custom-control custom-switch mb-1">
-            <input
-              type="radio"
-              class="custom-control-input"
-              name="width"
-              value="fluid"
-              id="fluid-check"
-              checked
-            />
-            <label class="custom-control-label" for="fluid-check">Fluid</label>
-          </div>
-          <div class="custom-control custom-switch mb-1">
-            <input
-              type="radio"
-              class="custom-control-input"
-              name="width"
-              value="boxed"
-              id="boxed-check"
-            />
-            <label class="custom-control-label" for="boxed-check">Boxed</label>
-          </div>
-
-          <!-- Left Sidebar-->
-          <h5 class="mt-4">Left Sidebar</h5>
-          <hr class="mt-1" />
-          <div class="custom-control custom-switch mb-1">
-            <input
-              type="radio"
-              class="custom-control-input"
-              name="theme"
-              value="default"
-              id="default-check"
-              checked
-            />
-            <label class="custom-control-label" for="default-check"
-              >Default</label
-            >
-          </div>
-
-          <div class="custom-control custom-switch mb-1">
-            <input
-              type="radio"
-              class="custom-control-input"
-              name="theme"
-              value="light"
-              id="light-check"
-            />
-            <label class="custom-control-label" for="light-check">Light</label>
-          </div>
-
-          <div class="custom-control custom-switch mb-3">
-            <input
-              type="radio"
-              class="custom-control-input"
-              name="theme"
-              value="dark"
-              id="dark-check"
-            />
-            <label class="custom-control-label" for="dark-check">Dark</label>
-          </div>
-
-          <div class="custom-control custom-switch mb-1">
-            <input
-              type="radio"
-              class="custom-control-input"
-              name="compact"
-              value="fixed"
-              id="fixed-check"
-              checked
-            />
-            <label class="custom-control-label" for="fixed-check">Fixed</label>
-          </div>
-
-          <div class="custom-control custom-switch mb-1">
-            <input
-              type="radio"
-              class="custom-control-input"
-              name="compact"
-              value="condensed"
-              id="condensed-check"
-            />
-            <label class="custom-control-label" for="condensed-check"
-              >Condensed</label
-            >
-          </div>
-
-          <div class="custom-control custom-switch mb-1">
-            <input
-              type="radio"
-              class="custom-control-input"
-              name="compact"
-              value="scrollable"
-              id="scrollable-check"
-            />
-            <label class="custom-control-label" for="scrollable-check"
-              >Scrollable</label
-            >
-          </div>
-
-          <button class="btn btn-primary btn-block mt-4" id="resetBtn">
-            Reset to Default
-          </button>
-
-          <a
-            href="https://themes.getbootstrap.com/product/hyper-responsive-admin-dashboard-template/"
-            class="btn btn-danger btn-block mt-3"
-            target="_blank"
-            ><i class="mdi mdi-basket mr-1"></i> Purchase Now</a
-          >
+    <!-- Product Section Begin -->
+    <section class="product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="filter__controls">
+<!--                        <li class="active" data-filter="*">Best Sellers</li>-->
+                        <li data-filter=".new-arrivals">Sản phẩm bán chạy</li>
+<!--                        <li data-filter=".hot-sales">Hot Sales</li>-->
+                    </ul>
+                </div>
+            </div>
+            <div class="row product__filter">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-1.jpg">
+                            <span class="label">New</span>
+                            <ul class="product__hover">
+                                <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a></li>
+                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6>Piqué Biker Jacket</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5>$67.24</h5>
+                            <div class="product__color__select">
+                                <label for="pc-1">
+                                    <input type="radio" id="pc-1">
+                                </label>
+                                <label class="active black" for="pc-2">
+                                    <input type="radio" id="pc-2">
+                                </label>
+                                <label class="grey" for="pc-3">
+                                    <input type="radio" id="pc-3">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-2.jpg">
+                            <ul class="product__hover">
+                                <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a></li>
+                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6>Piqué Biker Jacket</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5>$67.24</h5>
+                            <div class="product__color__select">
+                                <label for="pc-4">
+                                    <input type="radio" id="pc-4">
+                                </label>
+                                <label class="active black" for="pc-5">
+                                    <input type="radio" id="pc-5">
+                                </label>
+                                <label class="grey" for="pc-6">
+                                    <input type="radio" id="pc-6">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals">
+                    <div class="product__item sale">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-3.jpg">
+                            <span class="label">Sale</span>
+                            <ul class="product__hover">
+                                <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a></li>
+                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6>Multi-pocket Chest Bag</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5>$43.48</h5>
+                            <div class="product__color__select">
+                                <label for="pc-7">
+                                    <input type="radio" id="pc-7">
+                                </label>
+                                <label class="active black" for="pc-8">
+                                    <input type="radio" id="pc-8">
+                                </label>
+                                <label class="grey" for="pc-9">
+                                    <input type="radio" id="pc-9">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-4.jpg">
+                            <ul class="product__hover">
+                                <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a></li>
+                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6>Diagonal Textured Cap</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5>$60.9</h5>
+                            <div class="product__color__select">
+                                <label for="pc-10">
+                                    <input type="radio" id="pc-10">
+                                </label>
+                                <label class="active black" for="pc-11">
+                                    <input type="radio" id="pc-11">
+                                </label>
+                                <label class="grey" for="pc-12">
+                                    <input type="radio" id="pc-12">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-5.jpg">
+                            <ul class="product__hover">
+                                <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a></li>
+                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6>Lether Backpack</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5>$31.37</h5>
+                            <div class="product__color__select">
+                                <label for="pc-13">
+                                    <input type="radio" id="pc-13">
+                                </label>
+                                <label class="active black" for="pc-14">
+                                    <input type="radio" id="pc-14">
+                                </label>
+                                <label class="grey" for="pc-15">
+                                    <input type="radio" id="pc-15">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales">
+                    <div class="product__item sale">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-6.jpg">
+                            <span class="label">Sale</span>
+                            <ul class="product__hover">
+                                <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a></li>
+                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6>Ankle Boots</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5>$98.49</h5>
+                            <div class="product__color__select">
+                                <label for="pc-16">
+                                    <input type="radio" id="pc-16">
+                                </label>
+                                <label class="active black" for="pc-17">
+                                    <input type="radio" id="pc-17">
+                                </label>
+                                <label class="grey" for="pc-18">
+                                    <input type="radio" id="pc-18">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-7.jpg">
+                            <ul class="product__hover">
+                                <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a></li>
+                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6>T-shirt Contrast Pocket</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5>$49.66</h5>
+                            <div class="product__color__select">
+                                <label for="pc-19">
+                                    <input type="radio" id="pc-19">
+                                </label>
+                                <label class="active black" for="pc-20">
+                                    <input type="radio" id="pc-20">
+                                </label>
+                                <label class="grey" for="pc-21">
+                                    <input type="radio" id="pc-21">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-8.jpg">
+                            <ul class="product__hover">
+                                <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a></li>
+                                <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <h6>Basic Flowing Scarf</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5>$26.28</h5>
+                            <div class="product__color__select">
+                                <label for="pc-22">
+                                    <input type="radio" id="pc-22">
+                                </label>
+                                <label class="active black" for="pc-23">
+                                    <input type="radio" id="pc-23">
+                                </label>
+                                <label class="grey" for="pc-24">
+                                    <input type="radio" id="pc-24">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- end padding-->
-      </div>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Categories Section Begin -->
+<!--    <section class="categories spad">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-3">-->
+<!--                    <div class="categories__text">-->
+<!--                        <h2>Clothings Hot <br /> <span>Shoe Collection</span> <br /> Accessories</h2>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4">-->
+<!--                    <div class="categories__hot__deal">-->
+<!--                        <img src="img/product-sale.png" alt="">-->
+<!--                        <div class="hot__deal__sticker">-->
+<!--                            <span>Sale Of</span>-->
+<!--                            <h5>$29.99</h5>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 offset-lg-1">-->
+<!--                    <div class="categories__deal__countdown">-->
+<!--                        <span>Deal Of The Week</span>-->
+<!--                        <h2>Multi-pocket Chest Bag Black</h2>-->
+<!--                        <div class="categories__deal__countdown__timer" id="countdown">-->
+<!--                            <div class="cd-item">-->
+<!--                                <span>3</span>-->
+<!--                                <p>Days</p>-->
+<!--                            </div>-->
+<!--                            <div class="cd-item">-->
+<!--                                <span>1</span>-->
+<!--                                <p>Hours</p>-->
+<!--                            </div>-->
+<!--                            <div class="cd-item">-->
+<!--                                <span>50</span>-->
+<!--                                <p>Minutes</p>-->
+<!--                            </div>-->
+<!--                            <div class="cd-item">-->
+<!--                                <span>18</span>-->
+<!--                                <p>Seconds</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <a href="#" class="primary-btn">Shop now</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+    </section>
+    <!-- Categories Section End -->
+
+    <!-- Instagram Section Begin -->
+<!--    <section class="instagram spad">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-8">-->
+<!--                    <div class="instagram__pic">-->
+<!--                        <div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-1.jpg"></div>-->
+<!--                        <div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-2.jpg"></div>-->
+<!--                        <div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-3.jpg"></div>-->
+<!--                        <div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-4.jpg"></div>-->
+<!--                        <div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-5.jpg"></div>-->
+<!--                        <div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-6.jpg"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4">-->
+<!--                    <div class="instagram__text">-->
+<!--                        <h2>Instagram</h2>-->
+<!--                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut-->
+<!--                        labore et dolore magna aliqua.</p>-->
+<!--                        <h3>#Male_Fashion</h3>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+    </section>
+    <!-- Instagram Section End -->
+
+    <!-- Latest Blog Section Begin -->
+<!--    <section class="latest spad">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-12">-->
+<!--                    <div class="section-title">-->
+<!--                        <span>Latest News</span>-->
+<!--                        <h2>Fashion New Trends</h2>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-4 col-md-6 col-sm-6">-->
+<!--                    <div class="blog__item">-->
+<!--                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-1.jpg"></div>-->
+<!--                        <div class="blog__item__text">-->
+<!--                            <span><img src="img/icon/calendar.png" alt=""> 16 February 2020</span>-->
+<!--                            <h5>What Curling Irons Are The Best Ones</h5>-->
+<!--                            <a href="#">Read More</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 col-md-6 col-sm-6">-->
+<!--                    <div class="blog__item">-->
+<!--                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-2.jpg"></div>-->
+<!--                        <div class="blog__item__text">-->
+<!--                            <span><img src="img/icon/calendar.png" alt=""> 21 February 2020</span>-->
+<!--                            <h5>Eternity Bands Do Last Forever</h5>-->
+<!--                            <a href="#">Read More</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 col-md-6 col-sm-6">-->
+<!--                    <div class="blog__item">-->
+<!--                        <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-3.jpg"></div>-->
+<!--                        <div class="blog__item__text">-->
+<!--                            <span><img src="img/icon/calendar.png" alt=""> 28 February 2020</span>-->
+<!--                            <h5>The Health Benefits Of Sunglasses</h5>-->
+<!--                            <a href="#">Read More</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+    </section>
+    <!-- Latest Blog Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                        </div>
+                        <p>The customer is at the heart of our unique business model, which includes design.</p>
+                        <a href="#"><img src="img/payment.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Shopping</h6>
+                        <ul>
+                            <li><a href="#">Clothing Store</a></li>
+                            <li><a href="#">Trending Shoes</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Sale</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Shopping</h6>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Payment Methods</a></li>
+                            <li><a href="#">Delivary</a></li>
+                            <li><a href="#">Return & Exchanges</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>NewLetter</h6>
+                        <div class="footer__newslatter">
+                            <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+                            <form action="#">
+                                <input type="text" placeholder="Your email">
+                                <button type="submit"><span class="icon_mail_alt"></span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="footer__copyright__text">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <p>Copyright ©
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>2020
+                            All rights reserved | This template is made with <i class="fa fa-heart-o"
+                            aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        </p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
     </div>
+    <!-- Search End -->
 
-    <div class="rightbar-overlay"></div>
-    <!-- /Right-bar -->
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
 
-    <!-- bundle -->
-    <script src="assets/js/vendor.min.js"></script>
-    <script src="assets/js/app.min.js"></script>
-
-    <!-- third party js -->
-    <script src="assets/js/vendor/apexcharts.min.js"></script>
-    <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
-    <!-- third party js ends -->
-
-    <!-- demo app -->
-    <script src="assets/js/pages/demo.dashboard.js"></script>
-    <!-- end demo js-->
-  </body>
 </html>

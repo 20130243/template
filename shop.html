@@ -52,7 +52,7 @@
 
     <!-- Header Section Begin -->
     <header class="header">
-        <div class="container">
+        <div class="container  ">
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
@@ -80,20 +80,31 @@
 
     </header>
     <!-- Header Section End -->
-    <div class="breadcumb">
-        <h1>Thức uống</h1>
-        <h6>Tất cả sản phẩm</h6>
-        <hr>
-    </div>
+
     <!-- Shop Section Begin -->
     <section class="shop">
         <div class="container">
+            <div class="breadcumb">
+                <h1>Thức uống</h1>
+                <h6>Tất cả sản phẩm</h6>
+                <img src="assets/images/icon_tealeaves.png" width="500px" height="50px"
+                    style="object-fit: cover;scale: 0.5;">
+            </div>
 
 
             <div class="row">
                 <div class=" col-lg-9">
                     <!-- Button trigger modal -->
-                    <div class="row">
+                    <div class="row search_bar">
+                        <div class="col-lg-4 col-md-4 col-sm-4 ">
+                            <h6 class="search_bar_text">Tìm kiếm</h6>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <h6 class="search_bar_text">Nhóm sản phẩm</h6>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 ">
+                            <h6 class="search_bar_text">Theo giá</h6>
+                        </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 shop__sidebar__search">
                             <form action="#">
                                 <input type="text" placeholder="Tìm kiếm sản phẩm" style="padding-right:42px ;">
@@ -103,8 +114,8 @@
                         <div class="col-lg-4 col-md-4 col-sm-4" style="z-index: 99;">
                             <ul class="menu-drop">
                                 <li class="menu-item active">
-                                    <a href="" class="">Tất cả sản phẩm </a>
-                                </li>
+                                    <a href="" class="">Chọn nhóm </a>
+                                </li>index.html
                                 <li class="menu-item ">
                                     <a href="">Cà phê </a>
                                 </li>
@@ -119,16 +130,13 @@
                         <div class="col-lg-4 col-md-4 col-sm-4" style="z-index: 99;">
                             <ul class="menu-drop">
                                 <li class="menu-item active">
-                                    <a href="" class="">Phổ biến</a>
+                                    <a href="" class="">Không lựa chọn</a>
                                 </li>
                                 <li class="menu-item ">
                                     <a href="">Giá thấp đến cao</a>
                                 </li>
                                 <li class="menu-item ">
                                     <a href="">Giá cao đến thấp</a>
-                                </li>
-                                <li class="menu-item ">
-                                    <a href="">Phổ biến</a>
                                 </li>
                             </ul>
 
@@ -403,7 +411,7 @@
             <div class="modal-content flex-row">
                 <div class="w-50">
                     <div class="product-modal-img">
-                        <img src="img/product/product-12.jpg">
+                        <img src="img/productv2/Dứa-Ép-min.png">
                     </div>
                 </div>
                 <div class="w-50 product-modal-detail">
@@ -414,21 +422,22 @@
                         <div class="product-modal-option ">
                             <h6 class="title">Kích cỡ:</h6>
                             <div class="product-modal-size">
+
                                 <input class="" type="radio" name="size" id="m_size" value="M" checked="checked">
                                 <label class="size-radio" for="m_size">M</label>
-                                
+
                                 <input class="" type="radio" name="size" id="l_size" value="L">
                                 <label class="size-radio" for="l_size">L</label>
-                                
+
                             </div>
 
                         </div>
                         <div class="product-modal-option">
                             <h6 class="title">Số lượng:</h6>
                             <div class="quantity-control ">
-                                <i class="fa-solid fa-minus item"></i>
-                                <div class="quantity-num">1</div>
-                                <i class="fa-solid fa-plus item"></i>
+                                <button class=" " id="modal-sub-btn"><i class="fa-solid fa-minus item"></i> </button>
+                                <input type="text" disabled class="quantity-num" value="1" id="modal-quantity">
+                                <button class=" " id="modal-sum-btn"> <i class="fa-solid fa-plus item"></i> </button>
                             </div>
                         </div>
                         <div class="product-modal-option align-items-start">
@@ -437,19 +446,19 @@
                                 <input type="checkbox" name="tranchau" id="tranchau">
                                 <label class="topping-detail" for="tranchau">
                                     Trân châu</label>
-                                
-                                    <input type="checkbox" name="suongsao" id="suongsao">
+
+                                <input type="checkbox" name="suongsao" id="suongsao">
                                 <label class="topping-detail" for="suongsao">
                                     Sương sáo</label>
-                                
-                                    <input type="checkbox" name="cheese" id="cheese">
+
+                                <input type="checkbox" name="cheese" id="cheese">
                                 <label class="topping-detail" for="cheese">
                                     Kem Cheese</label>
-                                
-                                    <input type="checkbox" name="thach" id="thach">
+
+                                <input type="checkbox" name="thach" id="thach">
                                 <label class="topping-detail" for="thach">
                                     Thạch dừa</label>
-                                
+
                             </div>
                         </div>
 
