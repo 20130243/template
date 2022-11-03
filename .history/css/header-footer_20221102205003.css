@@ -1,0 +1,5 @@
+.drop-down__list {
+  display: flex;
+  margin-top: 25px;
+  background-color: #f3f2ee;
+}

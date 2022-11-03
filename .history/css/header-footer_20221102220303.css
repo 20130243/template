@@ -1,0 +1,7 @@
+.header__menu ul li .dropdown a:hover {
+  color: #fff;
+}
+
+.header__menu ul li .dropdown a {
+  color: #000;
+}
