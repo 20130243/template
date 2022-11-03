@@ -1,11 +1,12 @@
-.breadcumb{
-     width: 100%;
-     text-align: center;
-     padding: 20px 0; 
+.breadcumb {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
 }
-.breadcumb h1{
-  font-size: 4rem;
-  color: #1fa198;
+
+.breadcumb h1 {
+    font-size: 4rem;
+    color: #1fa198;
 }
 
 
@@ -136,22 +137,31 @@
     cursor: pointer;
     background-size: 150px;
 }
+.search_bar{
+    margin-bottom: 30px;
+    padding: 20px 0;
+    box-shadow: 0 0 8px #d7e0e0;
+}
+.search_bar_text {
+    padding: 5px 0;
+    font-weight: 700;
 
+}
 .menu-drop {
     width: 100%;
     font-size: 15px;
     color: #b7b7b7;
     height: 42px;
     float: left;
-    line-height: 42px; list-style-type: none;
+    line-height: 42px;
+    list-style-type: none;
 }
 
-.menu-drop .menu-item{
-   width: 100%;
-   text-decoration: none;
+.menu-drop .menu-item {
+    width: 100%;
+    text-decoration: none;
     color: #111111;
     display: none;
-    width: 100%;
     font-size: 15px;
     color: #b7b7b7;
     height: 42px;
@@ -166,34 +176,35 @@
     color: #111111;
     width: 100%;
     font-size: 15px;
-    color: #b7b7b7;
     height: 42px;
     float: left;
     line-height: 42px;
     padding-left: 20px;
     width: 100%;
     background-color: white;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #1fa198;
 }
 
 .menu-drop .menu-item.active {
     display: block !important;
 }
+
 .menu-drop .menu-item.active a::after {
-        content: "";
-        display: block;
-        background: url("/templatecus/img/icon/heart.png") no-repeat;
-        background-position: center;
-        width: 20px;
-        height: 42px;
-        float: right;
-        margin: 0 6px 0 0;
+    content: "";
+    display: block;
+    background: url("/templatecus/img/icon/heart.png") no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 42px;
+    float: right;
+    margin: 0 6px 0 0;
 }
 
 .menu-drop .menu-item a:hover {
     text-decoration: none;
     color: #111111;
 }
+
 .menu-drop:hover .menu-item {
     display: block;
 }
