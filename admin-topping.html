@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Thêm sản phẩm</title>
+    <title>Topping</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
@@ -307,11 +307,10 @@
                             <div class="page-title-box">
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="">Sản phẩm</a></li>
-                                        <li class="breadcrumb-item active"> Thêm sản phẩm</li>
+                                        <li class="breadcrumb-item active">Topping</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title">Sản phẩm</h4>
+                                <h4 class="page-title">Topping</h4>
                             </div>
                         </div>
                     </div>
@@ -321,77 +320,151 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-
-                                    <h4 class="header-title">Sản phẩm mới</h4>
-                                    <form>
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb-3">
-                                                    <label for="name">Tên sản phẩm</label>
-                                                    <input type="text" id="name" class="form-control">
-                                                </div>
-                                                <div class="form-group mb-3">
-                                                    <label for="image">Ảnh sản phẩm</label>
-                                                    <input type="file" id="image" class="form-control-file">
-                                                </div>
-                                                <div class="form-group mb-3">
-                                                    <label for="">Phân loại</label>
-                                                    <select class="custom-select " id="category">
-                                                        <option selected>Chọn phân loại</option>
-                                                        <option value="1">Cà phê</option>
-                                                        <option value="2">Trà sữa</option>
-                                                        <option value="3">Trà</option>
-                                                        <option value="4">Nước ép</option>
-                                                        <option value="5">Đá xay</option>
-                                                    </select>
-                                                </div>
-
-                                                <div class="form-group mb-3">
-                                                    <label for="category">Chọn loại topping áp dụng</label>
-                                                    <select id="category" multiple class="form-control">
-                                                        <option value="1">Trân châu đen</option>
-                                                        <option value="2">Thạch cà phê</option>
-                                                        <option value="3">Whipping cream</option>
-                                                        <option value="4">Thạch dừa</option>
-                                                        <option value="5">Kem cheese</option>
-                                                    </select>
-                                                    <span class="help-block"><small>Giữ ctrl hoặc shift để chọn nhiều
-                                                            loại.</small></span>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb-3">
-                                                    <div class="custom-control custom-switch">
-                                                        <input type="checkbox" class="custom-control-input"
-                                                            id="customSwitch1">
-                                                        <label class="custom-control-label" for="customSwitch1">Có 2
-                                                            size</label>
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group mb-3">
-                                                    <label for="price-M">Giá size M</label>
-                                                    <input type="text" id="price-M" class="form-control">
-                                                </div>
-
-                                                <div class="form-group mb-3">
-                                                    <label for="price-L">Giá size L</label>
-                                                    <input type="text" id="price-L" disabled class="form-control">
-                                                </div>
-                                                
-                                                <div class="form-group mb-3">
-                                                    <label for="">Trạng thái</label>
-                                                    <select class="custom-select mb-3" id="category">
-                                                        <option value="1" selected>Đang bán</option>
-                                                        <option value="2">Hết hàng</option>
-                                                        <option value="3">Ngưng bán</option>
-                                                    </select>
-                                                </div>
-
-                                            </div>
+                                    <div class="row mb-2">
+                                        <div class="col-sm-4">
+                                            <a href="javascript:void(0);" class="btn btn-danger mb-2"><i
+                                                    class="mdi mdi-plus-circle mr-2"></i>Thêm topping</a>
                                         </div>
-                                        <button type="submit" class="btn btn-primary">Thêm sản phẩm</button>
-                                    </form>
+                                        <div class="col-sm-8">
+                                            <!-- <div class="text-sm-right">
+                                                <button type="button" class="btn btn-success mb-2 mr-1"><i
+                                                        class="mdi mdi-settings"></i></button>
+                                                <button type="button" class="btn btn-light mb-2 mr-1">Nhập file</button>
+                                                <button type="button" class="btn btn-light mb-2">Xuất file</button>
+                                            </div> -->
+                                        </div><!-- end col-->
+                                    </div>
+
+                                    <div class="table-responsive">
+                                        <table class="table table-centered w-100 dt-responsive nowrap"
+                                            id="products-datatable">
+                                            <thead class="thead-light">
+                                                <tr>
+                                                    <th class="all">Tên topping</th>
+                                                    <th class="text-center">giá</th>
+                                                    <th class="text-center">Tình trạng</th>
+                                                    <th class="text-center">Hành động</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <p class="m-0 d-inline-block align-middle font-16">
+                                                            <a href="apps-ecommerce-products-details.html"
+                                                                class="text-body">Trân châu đen</a>
+                                                            <br />
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        5,000đ
+                                                    </td>
+
+                                                    <td class="text-center">
+                                                        <span class="badge badge-success">Đang bán</span>
+                                                    </td>
+
+                                                     <td class="table-action text-center" >
+                                                        <a href="javascript:void(0);" class="action-icon"> <i
+                                                                class="mdi mdi-square-edit-outline"></i></a>
+                                                        <a href="javascript:void(0);" class="action-icon"> <i
+                                                                class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="m-0 d-inline-block align-middle font-16">
+                                                            <a href="apps-ecommerce-products-details.html"
+                                                                class="text-body">Whipping cream</a>
+                                                            <br />
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        5,000đ
+                                                    </td>
+
+                                                    <td class="text-center">
+                                                        <span class="badge badge-success">Đang bán</span>
+                                                    </td>
+
+                                                     <td class="table-action text-center" >
+                                                        <a href="javascript:void(0);" class="action-icon"> <i
+                                                                class="mdi mdi-square-edit-outline"></i></a>
+                                                        <a href="javascript:void(0);" class="action-icon"> <i
+                                                                class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="m-0 d-inline-block align-middle font-16">
+                                                            <a href="apps-ecommerce-products-details.html"
+                                                                class="text-body">Thạch cà phê</a>
+                                                            <br />
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        5,000đ
+                                                    </td>
+
+                                                    <td class="text-center">
+                                                        <span class="badge badge-success">Đang bán</span>
+                                                    </td>
+
+                                                     <td class="table-action text-center" >
+                                                        <a href="javascript:void(0);" class="action-icon"> <i
+                                                                class="mdi mdi-square-edit-outline"></i></a>
+                                                        <a href="javascript:void(0);" class="action-icon"> <i
+                                                                class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="m-0 d-inline-block align-middle font-16">
+                                                            <a href="apps-ecommerce-products-details.html"
+                                                                class="text-body">Trân châu trắng</a>
+                                                            <br />
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        5,000đ
+                                                    </td>
+
+                                                    <td class="text-center">
+                                                        <span class="badge badge-success">Đang bán</span>
+                                                    </td>
+
+                                                     <td class="table-action text-center" >
+                                                        <a href="javascript:void(0);" class="action-icon"> <i
+                                                                class="mdi mdi-square-edit-outline"></i></a>
+                                                        <a href="javascript:void(0);" class="action-icon"> <i
+                                                                class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="m-0 d-inline-block align-middle font-16">
+                                                            <a href="apps-ecommerce-products-details.html"
+                                                                class="text-body">Thạch dừa</a>
+                                                            <br />
+                                                        </p>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        5,000đ
+                                                    </td>
+
+                                                    <td class="text-center">
+                                                        <span class="badge badge-secondary">Ngưng bán</span>
+                                                    </td>
+
+                                                     <td class="table-action text-center" >
+                                                        <a href="javascript:void(0);" class="action-icon"> <i
+                                                                class="mdi mdi-square-edit-outline"></i></a>
+                                                        <a href="javascript:void(0);" class="action-icon"> <i
+                                                                class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div> <!-- end card-body-->
                             </div> <!-- end card-->
                         </div> <!-- end col -->
