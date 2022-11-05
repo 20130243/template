@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Thêm sản phẩm</title>
+    <title>Thêm loại</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
@@ -105,6 +105,7 @@
                         </a>
                     </li>
                 </ul>
+
 
                 <!-- End Sidebar -->
 
@@ -307,11 +308,11 @@
                             <div class="page-title-box">
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="admin-product.html">Sản phẩm</a></li>
-                                        <li class="breadcrumb-item active"> Thêm sản phẩm</li>
+                                        <li class="breadcrumb-item"><a href="admin-category.html">Phân loại</a></li>
+                                        <li class="breadcrumb-item active"> Thêm loại</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title">Sản phẩm</h4>
+                                <h4 class="page-title">Phân loại</h4>
                             </div>
                         </div>
                     </div>
@@ -322,75 +323,22 @@
                             <div class="card">
                                 <div class="card-body">
 
-                                    <h4 class="header-title">Sản phẩm mới</h4>
+                                    <h4 class="header-title">Phân loại</h4>
                                     <form>
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb-3">
-                                                    <label for="name">Tên sản phẩm</label>
-                                                    <input type="text" id="name" class="form-control">
-                                                </div>
-                                                <div class="form-group mb-3">
-                                                    <label for="image">Ảnh sản phẩm</label>
-                                                    <input type="file" id="image" class="form-control-file">
-                                                </div>
-                                                <div class="form-group mb-3">
-                                                    <label for="">Phân loại</label>
-                                                    <select class="custom-select " id="category">
-                                                        <option selected>Chọn phân loại</option>
-                                                        <option value="1">Cà phê</option>
-                                                        <option value="2">Trà sữa</option>
-                                                        <option value="3">Trà</option>
-                                                        <option value="4">Nước ép</option>
-                                                        <option value="5">Đá xay</option>
-                                                    </select>
-                                                </div>
-
-                                                <div class="form-group mb-3">
-                                                    <label for="category">Chọn loại topping áp dụng</label>
-                                                    <select id="category" multiple class="form-control">
-                                                        <option value="1">Trân châu đen</option>
-                                                        <option value="2">Thạch cà phê</option>
-                                                        <option value="3">Whipping cream</option>
-                                                        <option value="4">Thạch dừa</option>
-                                                        <option value="5">Kem cheese</option>
-                                                    </select>
-                                                    <span class="help-block"><small>Giữ ctrl hoặc shift để chọn nhiều
-                                                            loại.</small></span>
-                                                </div>
+                                            <div class="form-group mb-3">
+                                                <label for="name">Tên loại</label>
+                                                <input type="text" id="name" class="form-control">
+                                            </div> 
+                                            <div class="form-group mb-3">
+                                                <label for="">Trạng thái</label>
+                                                <select class="custom-select mb-3" id="category">
+                                                    <option value="1" selected>Đang bán</option>
+                                                    <option value="2">Hết hàng</option>
+                                                    <option value="3">Ngưng bán</option>
+                                                </select>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb-3">
-                                                    <div class="custom-control custom-switch">
-                                                        <input type="checkbox" class="custom-control-input"
-                                                            id="customSwitch1">
-                                                        <label class="custom-control-label" for="customSwitch1">Có 2
-                                                            size</label>
-                                                    </div>
-                                                </div>
 
-                                                <div class="form-group mb-3">
-                                                    <label for="price-M">Giá size M</label>
-                                                    <input type="text" id="price-M" class="form-control">
-                                                </div>
-
-                                                <div class="form-group mb-3">
-                                                    <label for="price-L">Giá size L</label>
-                                                    <input type="text" id="price-L" disabled class="form-control">
-                                                </div>
-                                                
-                                                <div class="form-group mb-3">
-                                                    <label for="">Trạng thái</label>
-                                                    <select class="custom-select mb-3" id="category">
-                                                        <option value="1" selected>Đang bán</option>
-                                                        <option value="2">Hết hàng</option>
-                                                        <option value="3">Ngưng bán</option>
-                                                    </select>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary">Thêm sản phẩm</button>
+                                        <button type="submit" class="btn btn-primary">Thêm loại</button>
                                     </form>
                                 </div> <!-- end card-body-->
                             </div> <!-- end card-->
