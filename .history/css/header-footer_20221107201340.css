@@ -1,0 +1,6 @@
+.header__menu ul li .dropdown a:hover {
+  color: #000;
+}
+.header__nav__option a {
+  border: 1px solid black;
+}
