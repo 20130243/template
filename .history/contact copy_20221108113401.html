@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="css/header-footer.css" type="text/css" />
-    <link rel="stylesheet" href="css/contact.css" type="text/css" />
+    <link rel="stylesheet" href="css/contact__edit.css" type="text/css" />
   </head>
 
   <body>
@@ -79,25 +79,48 @@
           <div class="col-lg-6 col-md-6">
             <nav class="header__menu mobile-menu">
               <ul>
-                <li class="active"><a href="#">Trang chủ</a></li>
-                <li><a href="#">Sản phẩm</a></li>
+                <li class="active"><a href="./index.html">Trang chủ</a></li>
+                <li><a href="./shop.html">Thức uống</a></li>
                 <li>
                   <a href="#">Giới thiệu</a>
                   <ul class="dropdown">
-                    <li><a href="#">Về chúng tôi</a></li>
-                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="./about.html">Về chúng tôi</a></li>
+                    <li><a href="./contact.html">Liên hệ</a></li>
                   </ul>
                 </li>
 
-                <li><a href="#">Khuyến mãi</a></li>
+                <li><a href="./blog.html">Khuyến mãi</a></li>
               </ul>
             </nav>
           </div>
           <div class="col-lg-3 col-md-3">
             <div class="header__nav__option">
-              <a href="login-register.html" class="primary-btn login-btn"
+              <div class="">
+                <nav class="header__menu mobile-menu" style="padding: 0">
+                  <ul>
+                    <li style="display: flex">
+                      <a href="#"
+                        ><img src="img/icon/user.png" alt="" width="18px" />
+                      </a>
+
+                      <ul class="dropdown">
+                        <li><a href="./account.html">Tài khoản</a></li>
+                        <li><a href="#">Đăng xuất</a></li>
+                      </ul>
+                      <a href="#" class="user">Lê Trọng Tình</a>
+                    </li>
+                    <!-- <li>
+                      <a href="#"
+                        ><img src="img/icon/cart.png" alt="" width="18px" />
+                      </a>
+                    </li> -->
+                  </ul>
+                </nav>
+              </div>
+
+              <!-- <a href="./login-register.html" class="primary-btn login-btn"
                 >Đăng nhập</a
-              >
+              > -->
             </div>
           </div>
         </div>
@@ -105,23 +128,6 @@
       </div>
     </header>
     <!-- Header Section End -->
-    <section class="hero">
-      <!--        <div class="hero__slider owl-carousel">-->
-      <!--            <div class="hero__items set-bg" data-setbg="img/icon/pls.jpg">-->
-      <!--                <div class="container">-->
-      <!--                    <div class="row">-->
-      <!--                        <div class="col-xl-5 col-lg-7 col-md-8">-->
-      <!--                            <div class="hero__text">-->
-      <!--                                <div class="hero__social">-->
-      <!--                                </div>-->
-      <!--                            </div>-->
-      <!--                        </div>-->
-      <!--                    </div>-->
-      <!--                </div>-->
-      <!--            </div>-->
-      <!--        </div>-->
-      <!--        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.264114216549!2d106.78577111468452!3d10.867505260477905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752723ea2654c5%3A0x4f23b763376a799d!2zQuG6o25nIHTDqm4gVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBOw7RuZyBMw6JtIFRQLkhDTQ!5e0!3m2!1svi!2s!4v1667450035309!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
-    </section>
 
     <!-- Contact Section Begin -->
     <section class="contact spad">
@@ -165,24 +171,38 @@
               <div class="footer__logo">
                 <a href="#"><img src="img/footer-logo.png" alt="" /></a>
               </div>
-              <p>Trà sữa 3 anh em</p>
+              <p>TỪ NHỮNG MẦM TRÀ, CHÚNG TÔI TẠO RA NIỀM ĐAM MÊ</p>
+              <a href="#"><img src="img/payment.png" alt="" /></a>
             </div>
           </div>
           <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
             <div class="footer__widget">
-              <h6>Liên hệ</h6>
+              <h6>Khuyến mãi</h6>
               <ul>
-                <li>
-                  <p>(+84) 391962523</p>
-                </li>
-                <li>
-                  <p>20130243@st.hcmuaf.edu.vn</p>
-                </li>
+                <li><a href="./blog.html">Tin tức</a></li>
+                <li><a href="./shop.html">Shop</a></li>
               </ul>
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6">
-            <div class="footer__widget"></div>
+            <div class="footer__widget">
+              <h6>Liên hệ</h6>
+              <ul>
+                <li><a href="./about.html">Về chúng tôi</a></li>
+                <li><a href="./contact.html">Địa chỉ</a></li>
+                <li>
+                  <a href="#">20130243@st.hcmuaf.edu.vn</a>
+                </li>
+                <li>
+                  <a href="https://ltrtinh27.web.app/"
+                    >20130440@st.hcmuaf.edu.vn</a
+                  >
+                </li>
+                <li>
+                  <a href="#">20130243@st.hcmuaf.edu.vn</a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
             <div class="footer__widget">
@@ -196,6 +216,25 @@
                   </button>
                 </form>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="footer__copyright__text">
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <p>
+                Copyright ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This template is made with
+                <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                <a href="#"
+                  ><img src="img/footer-logo.png" alt="" width="52px"
+                /></a>
+              </p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </div>
           </div>
         </div>
