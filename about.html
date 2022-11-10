@@ -21,7 +21,9 @@
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/about.css" type="text/css">
+    <link rel="stylesheet" href="css/header-footer.css">
 </head>
 
 <body>
@@ -62,65 +64,37 @@
 
     <!-- Header Section Begin -->
     <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-7">
-                        <div class="header__top__left">
-                            <p>Free shipping, 30-day return or refund guarantee.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-5">
-                        <div class="header__top__right">
-                            <div class="header__top__links">
-                                <a href="#">Sign in</a>
-                                <a href="#">FAQs</a>
-                            </div>
-                            <div class="header__top__hover">
-                                <span>Usd <i class="arrow_carrot-down"></i></span>
-                                <ul>
-                                    <li>USD</li>
-                                    <li>EUR</li>
-                                    <li>USD</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"
+                        ><img class="logo-small" src="img/logo.png" alt=""
+                        /></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li><a href="./index.html">Trang chủ</a></li>
-                            <li><a href="./shop.html">Cửa hàng</a></li>
-                            <li><a href="#">Pages</a>
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li class="active"><a href="#">Sản phẩm</a></li>
+                            <li>
+                                <a href="#">Giới thiệu</a>
                                 <ul class="dropdown">
-                                    <li><a href="./about.html">About Us</a></li>
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                    <li><a href="#">Về chúng tôi</a></li>
+                                    <li><a href="#">Liên hệ</a></li>
                                 </ul>
                             </li>
-                            <li class="active"><a href="./blog.html">Giới thiệu</a></li>
-                            <li><a href="./contact.html">Liên hệ</a></li>
+
+                            <li><a href="#">Khuyến mãi</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="col-lg-3 col-md-3">
                     <div class="header__nav__option">
-                        <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
-                        <a href="#"><img src="img/icon/heart.png" alt=""></a>
-                        <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
-                        <div class="price">$0.00</div>
+                        <a href="login-register.html" class="primary-btn login-btn"
+                        >Đăng nhập</a
+                        >
                     </div>
                 </div>
             </div>
@@ -128,6 +102,7 @@
         </div>
     </header>
     <!-- Header Section End -->
+
     <section class="hero">
         <div class="hero__slider owl-carousel">
             <div class="hero__items set-bg" data-setbg="img/about/vct.jpg">
@@ -157,8 +132,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="about__pic">
-                        <img src="img/about/tss.jpg" alt="">
+                    <div class="about__pic text-center">
+                        <img src="img/logo.png" width="200px" alt="">
                     </div>
                 </div>
             </div>
@@ -230,146 +205,50 @@
         </div>
     </section>
     <!-- Footer Section Begin -->
-<!--    <footer class="footer">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-lg-3 col-md-6 col-sm-6">-->
-<!--                    <div class="footer__about">-->
-<!--                        <div class="footer__logo">-->
-<!--                            <a href="#"><img src="img/footer-logo.png" alt=""></a>-->
-<!--                        </div>-->
-<!--                        <p>The customer is at the heart of our unique business model, which includes design.</p>-->
-<!--                        <a href="#"><img src="img/payment.png" alt=""></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">-->
-<!--                    <div class="footer__widget">-->
-<!--                        <h6>Shopping</h6>-->
-<!--                        <ul>-->
-<!--                            <li><a href="#">Clothing Store</a></li>-->
-<!--                            <li><a href="#">Trending Shoes</a></li>-->
-<!--                            <li><a href="#">Accessories</a></li>-->
-<!--                            <li><a href="#">Sale</a></li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-lg-2 col-md-3 col-sm-6">-->
-<!--                    <div class="footer__widget">-->
-<!--                        <h6>Shopping</h6>-->
-<!--                        <ul>-->
-<!--                            <li><a href="#">Contact Us</a></li>-->
-<!--                            <li><a href="#">Payment Methods</a></li>-->
-<!--                            <li><a href="#">Delivary</a></li>-->
-<!--                            <li><a href="#">Return & Exchanges</a></li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">-->
-<!--                    <div class="footer__widget">-->
-<!--                        <h6>NewLetter</h6>-->
-<!--                        <div class="footer__newslatter">-->
-<!--                            <p>Be the first to know about new arrivals, look books, sales & promos!</p>-->
-<!--                            <form action="#">-->
-<!--                                <input type="text" placeholder="Your email">-->
-<!--                                <button type="submit"><span class="icon_mail_alt"></span></button>-->
-<!--                            </form>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="row">-->
-<!--                <div class="col-lg-12 text-center">-->
-<!--                    <div class="footer__copyright__text">-->
-<!--                        &lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;-->
-<!--                        <p>Copyright ©-->
-<!--                            <script>-->
-<!--                                document.write(new Date().getFullYear());-->
-<!--                            </script>2020-->
-<!--                            All rights reserved | This template is made with <i class="fa fa-heart-o"-->
-<!--                            aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>-->
-<!--                        </p>-->
-<!--                        &lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </footer>-->
-    <!-- Footer Section End -->
-    <footer id="footer">
-        <div class="f-bot">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-xs-12 f-copyright">
-                        <b>Trụ sở chính</b>: Công ty Cổ Phần Phúc Long Heritage - ĐKKD: 0316 871719<br>
-                        do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021<br>
-                        <b>Nhà máy</b>: D_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III, phường Mỹ Phước, thị xã Bến Cát, tỉnh Bình Dương, Việt Nam<br>
-                        <b>Địa chỉ</b>: Khu Phố 6,Phường Linh Trung, TP Thủ Đức, TP Hồ Chí Minh<br>
-                        <b>Điện thoại</b>: +84 345 825 875 <br>
-                        <b>Fax</b>: 0345 825 875 <br>
-                        <b class="w37">Email</b><span class="w4">:</span><span class="w1"> hainguyen42@gamil.com</span><br>
-                        <b class="w37"> </b><span class="w4"></span><span class="w1">  haihai231@gmail.com</span>
-                    </div>
-                    <!-- <div class="col-md-3 col-xs-7 f-social">
-                        <ul>
-                            <li><a class="btn-icon" href="http://www.facebook.com/phuclongcoffeeandtea"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a class="btn-icon" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a class="btn-icon" href="https://www.instagram.com/phuclongcoffeeandtea/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a class="btn-icon"  href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div> -->
-                    <div class="col-md-4 col-xs-12 f_follow">
-                        <label for="newsletter-email"><b>Đăng ký nhận tin khuyến mãi</b></label>
-                        <form method="POST" action="https://phuclong.com.vn/send" accept-charset="UTF-8" class="form-inline ng-pristine ng-valid" id="form-newsletter" novalidate="novalidate"><input name="_token" type="hidden" >
-
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="newsletter-email" name="newsletter-email" placeholder="Nhập địa chỉ email">
-                            </div>
-                            <button type="submit" class="btn btn-default">Gửi</button>
-                        </form>
-                        <br>
-                        <ul>
-                            <li><a href="https://phuclong.com.vn/chinh-sach-dat-hang">Chính sách đặt hàng</a></li>
-                            <li><a href="https://phuclong.com.vn/chinh-sach-bao-mat-thong-tin">Chính sách bảo mật thông tin</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 col-xs-12 f-language">
-                        <div class="lang-wrapper">
-                            <a class="lang-item active" href="https://phuclong.com.vn/ve-chung-toi">VN</a> |
-                            <a class="lang-item" href="https://phuclong.com.vn/en/ve-chung-toi">EN</a>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/footer-logo.png" alt=""></a>
                         </div>
-                        <a href="http://online.gov.vn/Home/WebDetails/96621">
-                            <img src="img/about/tb.png" alt="dathongbao" class="img-responsive w-80">
-                        </a>
-
-                        <ul class="f-social">
-                            <li><a class="btn-icon" href="http://www.facebook.com/phuclongcoffeeandtea"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a class="btn-icon" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a class="btn-icon" href="https://www.instagram.com/phuclongcoffeeandtea/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a class="btn-icon" href="https://www.youtube.com/channel/UCq6WR0wWNUuz53c4zeWSa8g"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        <p>Trà sữa 3 anh em</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Liên hệ</h6>
+                        <ul>
+                            <li>
+                                <p>(+84) 391962523</p>
+                            </li>
+                            <li>
+                                <p>20130243@st.hcmuaf.edu.vn</p>
+                            </li>
                         </ul>
-
-
-
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Nhận khuyến mãi</h6>
+                        <div class="footer__newslatter">
+                            <p>Nhập email để không bõ lỡ những khuyến mãi hấp dẫn!</p>
+                            <form action="#">
+                                <input type="text" placeholder="Email của bạn">
+                                <button type="submit"><span class="icon_mail_alt"></span></button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- Search Begin -->
-    <div class="copyright black text-center">
-        © 2017 Bản quyền Phuc Long Co., Ltd<br class="visible-xs">
-    </div>
-    <div class="search-model">
-        <div class="h-100 d-flex align-items-center justify-content-center">
-            <div class="search-close-switch">+</div>
-            <form class="search-model-form">
-                <input type="text" id="search-input" placeholder="Search here.....">
-            </form>
-        </div>
-
-    </div>
-    <!-- Search End -->
-
+    <!-- Footer Section End -->
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
