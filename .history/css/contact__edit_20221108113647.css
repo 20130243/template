@@ -1,0 +1,46 @@
+.spad {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.contact__text .section-title {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.contact__text .section-title h2 {
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
+.contact__text .section-title p {
+  color: #707070;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+.contact__text ul li {
+  list-style: none;
+  margin-bottom: 26px;
+}
+
+.contact__text ul li:last-child {
+  margin-bottom: 0;
+}
+
+.contact__text ul li h4 {
+  color: #111111;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.contact__text ul li p {
+  line-height: 27px;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
