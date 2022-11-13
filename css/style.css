@@ -858,9 +858,7 @@ ol {
   position: relative;
 }
 
-.categories__deal__countdown
-  .categories__deal__countdown__timer
-  .cd-item:after {
+.categories__deal__countdown .categories__deal__countdown__timer .cd-item:after {
   position: absolute;
   right: 0;
   top: 7px;
@@ -870,9 +868,7 @@ ol {
   color: #3d3d3d;
 }
 
-.categories__deal__countdown
-  .categories__deal__countdown__timer
-  .cd-item:last-child:after {
+.categories__deal__countdown .categories__deal__countdown__timer .cd-item:last-child:after {
   display: none;
 }
 
@@ -1411,9 +1407,7 @@ ol {
 }
 
 .shop__sidebar__accordion .card-heading a:after,
-.shop__sidebar__accordion
-  .card-heading
-  > a.active[aria-expanded="false"]:after {
+.shop__sidebar__accordion .card-heading>a.active[aria-expanded="false"]:after {
   content: "";
   font-family: "FontAwesome";
   font-size: 24px;
@@ -2337,7 +2331,7 @@ ol {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-bottom: 25px;
+  padding: 25px 0;
 }
 
 .shopping__cart__table table tbody tr {
@@ -2353,46 +2347,28 @@ ol {
   width: 400px;
 }
 
-.shopping__cart__table
-  table
-  tbody
-  tr
-  td.product__cart__item
-  .product__cart__item__pic {
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__pic {
   float: left;
   margin-right: 30px;
 }
 
-.shopping__cart__table
-  table
-  tbody
-  tr
-  td.product__cart__item
-  .product__cart__item__text {
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text {
   overflow: hidden;
   padding-top: 21px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
 }
 
-.shopping__cart__table
-  table
-  tbody
-  tr
-  td.product__cart__item
-  .product__cart__item__text
-  h6 {
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text h6 {
   color: #111111;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.shopping__cart__table
-  table
-  tbody
-  tr
-  td.product__cart__item
-  .product__cart__item__text
-  h5 {
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text h5 {
   color: #0d0d0d;
   font-weight: 700;
 }
@@ -2405,14 +2381,7 @@ ol {
   width: 80px;
 }
 
-.shopping__cart__table
-  table
-  tbody
-  tr
-  td.quantity__item
-  .quantity
-  .pro-qty-2
-  input {
+.shopping__cart__table table tbody tr td.quantity__item .quantity .pro-qty-2 input {
   width: 50px;
   border: none;
   text-align: center;
@@ -2420,14 +2389,7 @@ ol {
   font-size: 16px;
 }
 
-.shopping__cart__table
-  table
-  tbody
-  tr
-  td.quantity__item
-  .quantity
-  .pro-qty-2
-  .qtybtn {
+.shopping__cart__table table tbody tr td.quantity__item .quantity .pro-qty-2 .qtybtn {
   font-size: 16px;
   color: #888888;
   width: 10px;
@@ -2436,7 +2398,6 @@ ol {
 
 .shopping__cart__table table tbody tr td.cart__price {
   color: #111111;
-  font-size: 18px;
   font-weight: 700;
   width: 140px;
 }
@@ -2608,7 +2569,7 @@ ol {
 
 .checkout__input p {
   color: #111111;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
 .checkout__input p span {
@@ -2622,7 +2583,7 @@ ol {
   font-size: 14px;
   color: #b7b7b7;
   padding-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .checkout__input input::-webkit-input-placeholder {
@@ -2660,11 +2621,11 @@ ol {
   visibility: hidden;
 }
 
-.checkout__input__checkbox label input:checked ~ .checkmark {
+.checkout__input__checkbox label input:checked~.checkmark {
   border-color: #bce730;
 }
 
-.checkout__input__checkbox label input:checked ~ .checkmark:after {
+.checkout__input__checkbox label input:checked~.checkmark:after {
   opacity: 1;
 }
 
@@ -3883,12 +3844,7 @@ ol {
     overflow-y: auto;
   }
 
-  .shopping__cart__table
-    table
-    tbody
-    tr
-    td.product__cart__item
-    .product__cart__item__pic {
+  .shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__pic {
     float: none;
     margin-right: 0;
   }
@@ -4018,6 +3974,7 @@ ol {
     height: 250px;
   }
 }
+
 .breadcumb {
   width: 100%;
   text-align: center;
