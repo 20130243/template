@@ -7,7 +7,7 @@
   <meta name="keywords" content="Male_Fashion, unica, creative, html" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title> Tin tức</title>
+  <title>Thanh toán</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
@@ -25,8 +25,8 @@
   <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
   <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
   <link rel="stylesheet" href="css/style.css" type="text/css" />
-  <link rel="stylesheet" href="css/blog.css" />
   <link rel="stylesheet" href="css/header-footer.css" type="text/css" />
+  <link rel="stylesheet" href="css/cart.css" type="text/css">
 </head>
 
 <body>
@@ -89,146 +89,144 @@
     </div>
   </header>
   <!-- Header Section End -->
-  <div class="thumbCover">
-    <img src="./img/banner-matcha.jpg" alt="" />
-  </div>
 
   <!-- Breadcrumb Section Begin -->
-  <section class="breadcrumb-option">
-    <div class="container">
-      <div class="breadcumb">
-        <h1>Khuyến mãi</h1>
-        <h6>Tất cả khuyến mãi</h6>
-        <img src="assets/images/icon_tealeaves.png" width="500px" height="50px" style="object-fit: cover; scale: 0.5" />
-      </div>
+  <div class="container">
+    <div class="breadcumb">
+      <h1>Thanh toán</h1>
+      <img src="assets/images/icon_tealeaves.png" width="500px" height="50px" style="object-fit: cover; scale: 0.5" />
     </div>
-  </section>
+  </div>
   <!-- Breadcrumb Section End -->
   <!-- Shopping Cart Section Begin -->
-  <section class="blog">
+  <section class="cart">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="blog__item">
-            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-1.jpg"></div>
-            <div class="blog__item__text">
-              <span><img src="img/icon/calendar.png" alt="" /> 04 tháng 10
-                2022</span>
-              <h5>GRAND OPENING: PHÚC LONG 117 HÙNG VƯƠNG</h5>
-              <a href="./blog-details.html">Xem Thêm
-                <main></main></a>
-            </div>
+      <div class="row mb-3">
+        <div class="col-lg-8  ">
+          <div class="shopping__cart__table p-3 shadow ">
+            <table>
+              <thead>
+                <tr>
+                  <th>Sản phẩm</th>
+                  <th>Topping</th>
+                  <th>Số lượng</th>
+                  <th>Giá tiền</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="product__cart__item">
+                    <div class="product__cart__item__pic">
+                      <img src="img/productv2/Hồng-Trà-Sữa-min.png" alt="" width="150">
+                    </div>
+                    <div class="product__cart__item__text">
+                      <h5>Trà sữa đào</h5>
+                      <h6>31,000đ</h6>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="w-150">không</p>
+                  </td>
+                  <td class="quantity__item">
+                    <div class="quantity">
+                      <div class="pro-qty-2">
+                        <input type="text" value="1">
+                      </div>
+                    </div>
+                  </td>
+                  <td class="cart__price">31,000đ</td>
+                  <td class="cart__close"><i class="fa fa-close"></i></td>
+                </tr>
+                <tr>
+                  <td class="product__cart__item">
+                    <div class="product__cart__item__pic">
+                      <img src="img/productv2/Hồng-Trà-Sữa-min.png" alt="" width="150">
+                    </div>
+                    <div class="product__cart__item__text">
+                      <h5>Trà sữa đào</h5>
+                      <h6>31,000đ</h6>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="w-150">Trân châu đen x1 (5000đ)</p>
+                  </td>
+                  <td class="quantity__item">
+                    <div class="quantity">
+                      <div class="pro-qty-2">
+                        <input type="text" value="1">
+                      </div>
+                    </div>
+                  </td>
+                  <td class="cart__price">36,000đ</td>
+                  <td class="cart__close"><i class="fa fa-close"></i></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="blog__item">
-            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-2.jpg"></div>
-            <div class="blog__item__text">
-              <span><img src="img/icon/calendar.png" alt="" /> 25 Tháng 9
-                2022</span>
-              <h5>GRAND OPENING: PHÚC LONG ĐƯỜNG 3 THÁNG 2</h5>
-              <a href="./blog-details.html">Xem Thêm
-                <main></main></a>
+        <div class="col-lg-4">
+          <div class="cart__discount checkout__form shadow p-4">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <h6 class="">Thông tin nhận hàng</h6>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="checkout__input">
+                      <p>Tên người nhận<span>*</span></p>
+                      <input type="text">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="checkout__input">
+                      <p>Số điện thoại người nhận<span>*</span></p>
+                      <input type="phone">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="checkout__input">
+                      <p>Địa chỉ nhận hàng<span>*</span></p>
+                      <textarea name="" id="" cols="" rows="2" style="width: 100%;"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="checkout__input">
+                      <p>Ghi chú<span>*</span></p>
+                      <textarea name="" id="" cols="" rows="2" style="width: 100%;"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <form action="#">
+                  <input type="text" placeholder="Nhập mã giảm giá ">
+                  <button type="submit">Áp dụng</button>
+                </form>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h6 class="mt-4  mb-3">Tổng giỏ hàng</h6>
+                    <div>
+                      <p>Tổng tiền: <span>300,000đ</span></p>
+                      <p>Giảm giá: <span>0đ</span></p>
+                      
+                    </div>
+                    <a href="#" class="primary-btn w-100 text-center">Đặt hàng</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="blog__item">
-            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-3.jpg"></div>
-            <div class="blog__item__text">
-              <span><img src="img/icon/calendar.png" alt="" /> 14 Tháng 9
-                2022</span>
-              <h5>GRAND OPENING: PHÚC LONG BICONSI</h5>
-              <a href="./blog-details.html">Xem Thêm
-                <main></main></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="blog__item">
-            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-4.jpg"></div>
-            <div class="blog__item__text">
-              <span><img src="img/icon/calendar.png" alt="" /> 11 Tháng 9
-                2022</span>
-              <h5>COMBO BACK TO SCHOOL - CHỈ TỪ 45,000Đ</h5>
-              <a href="./blog-details.html">Xem Thêm
-                <main></main></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="blog__item">
-            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-5.jpg"></div>
-            <div class="blog__item__text">
-              <span><img src="img/icon/calendar.png" alt="" /> 04 Tháng 9
-                2022</span>
-              <h5>GRAND OPENING: PHÚC LONG NGUYỄN TRÃI</h5>
-              <a href="./blog-details.html">Xem Thêm
-                <main></main></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="blog__item">
-            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-6.jpg"></div>
-            <div class="blog__item__text">
-              <span><img src="img/icon/calendar.png" alt="" /> 28 Tháng 8
-                2022</span>
-              <h5>GRAND OPENING: PHÚC LONG NGUYỄN HỮU HUÂN</h5>
-              <a href="./blog-details.html">Xem Thêm
-                <main></main></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="blog__item">
-            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-7.jpg"></div>
-            <div class="blog__item__text">
-              <span><img src="img/icon/calendar.png" alt="" /> 07 Tháng 8
-                2022</span>
-              <h5>GRAND OPENING: PHÚC LONG NGUYỄN VĂN BẢO</h5>
-              <a href="./blog-details.html">Xem Thêm
-                <main></main></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="blog__item">
-            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-8.jpg"></div>
-            <div class="blog__item__text">
-              <span><img src="img/icon/calendar.png" alt="" /> 05 Tháng 8
-                2022</span>
-              <h5>MINIGAME: TRUNG THU VUI VẦYG</h5>
-              <a href="./blog-details.html">Xem Thêm
-                <main></main></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="blog__item">
-            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-9.jpg"></div>
-            <div class="blog__item__text">
-              <span><img src="img/icon/calendar.png" alt="" /> 02 Tháng 8
-                2022</span>
-              <h5>GRAND OPENING: PHÚC LONG HÙNG VƯƠNG</h5>
-              <a href="./blog-details.html">Xem Thêm
-                <main></main></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row spad">
-        <div class="col-lg-12">
-          <div class="product__pagination">
-            <a class="active" href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <span>...</span>
-            <a href="#">21</a>
-          </div>
+
+
+
         </div>
       </div>
     </div>
+
   </section>
   <!-- Footer Section Begin -->
   <footer class="footer">
